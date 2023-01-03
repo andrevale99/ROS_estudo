@@ -1,0 +1,43 @@
+[1.272s] Invoking command in '/home/andre/Documents/codes/ros/Pub_sub_simples/src/py_pubsub': PYTHONPATH=/home/andre/Documents/codes/ros/Pub_sub_simples/src/build/py_pubsub/prefix_override:/home/andre/Documents/codes/ros/Pub_sub_simples/src/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_pubsub build --build-base /home/andre/Documents/codes/ros/Pub_sub_simples/src/build/py_pubsub/build install --record /home/andre/Documents/codes/ros/Pub_sub_simples/src/build/py_pubsub/install.log --single-version-externally-managed
+[1.916s] running egg_info
+[1.917s] creating ../build/py_pubsub/py_pubsub.egg-info
+[1.917s] writing ../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.918s] writing dependency_links to ../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.918s] writing entry points to ../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[1.919s] writing requirements to ../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.919s] writing top-level names to ../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.919s] writing manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.923s] reading manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.926s] writing manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.926s] running build
+[1.926s] running build_py
+[1.927s] creating /home/andre/Documents/codes/ros/Pub_sub_simples/src/build/py_pubsub/build
+[1.927s] creating /home/andre/Documents/codes/ros/Pub_sub_simples/src/build/py_pubsub/build/lib
+[1.927s] creating /home/andre/Documents/codes/ros/Pub_sub_simples/src/build/py_pubsub/build/lib/py_pubsub
+[1.928s] copying py_pubsub/subscriber.py -> /home/andre/Documents/codes/ros/Pub_sub_simples/src/build/py_pubsub/build/lib/py_pubsub
+[1.928s] copying py_pubsub/__init__.py -> /home/andre/Documents/codes/ros/Pub_sub_simples/src/build/py_pubsub/build/lib/py_pubsub
+[1.928s] copying py_pubsub/publisher.py -> /home/andre/Documents/codes/ros/Pub_sub_simples/src/build/py_pubsub/build/lib/py_pubsub
+[1.929s] running install
+[1.929s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.932s]   warnings.warn(
+[1.932s] running install_lib
+[1.933s] creating /home/andre/Documents/codes/ros/Pub_sub_simples/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[1.933s] copying /home/andre/Documents/codes/ros/Pub_sub_simples/src/build/py_pubsub/build/lib/py_pubsub/subscriber.py -> /home/andre/Documents/codes/ros/Pub_sub_simples/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[1.933s] copying /home/andre/Documents/codes/ros/Pub_sub_simples/src/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/andre/Documents/codes/ros/Pub_sub_simples/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[1.933s] copying /home/andre/Documents/codes/ros/Pub_sub_simples/src/build/py_pubsub/build/lib/py_pubsub/publisher.py -> /home/andre/Documents/codes/ros/Pub_sub_simples/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[1.934s] byte-compiling /home/andre/Documents/codes/ros/Pub_sub_simples/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber.py to subscriber.cpython-310.pyc
+[1.935s] byte-compiling /home/andre/Documents/codes/ros/Pub_sub_simples/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[1.935s] byte-compiling /home/andre/Documents/codes/ros/Pub_sub_simples/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher.py to publisher.cpython-310.pyc
+[1.937s] running install_data
+[1.938s] creating /home/andre/Documents/codes/ros/Pub_sub_simples/src/install/py_pubsub/share/ament_index
+[1.938s] creating /home/andre/Documents/codes/ros/Pub_sub_simples/src/install/py_pubsub/share/ament_index/resource_index
+[1.939s] creating /home/andre/Documents/codes/ros/Pub_sub_simples/src/install/py_pubsub/share/ament_index/resource_index/packages
+[1.939s] copying resource/py_pubsub -> /home/andre/Documents/codes/ros/Pub_sub_simples/src/install/py_pubsub/share/ament_index/resource_index/packages
+[1.939s] copying package.xml -> /home/andre/Documents/codes/ros/Pub_sub_simples/src/install/py_pubsub/share/py_pubsub
+[1.940s] running install_egg_info
+[1.943s] Copying ../build/py_pubsub/py_pubsub.egg-info to /home/andre/Documents/codes/ros/Pub_sub_simples/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[1.947s] running install_scripts
+[1.999s] Installing listener script to /home/andre/Documents/codes/ros/Pub_sub_simples/src/install/py_pubsub/lib/py_pubsub
+[2.000s] Installing talker script to /home/andre/Documents/codes/ros/Pub_sub_simples/src/install/py_pubsub/lib/py_pubsub
+[2.000s] writing list of installed files to '/home/andre/Documents/codes/ros/Pub_sub_simples/src/build/py_pubsub/install.log'
+[2.070s] Invoked command in '/home/andre/Documents/codes/ros/Pub_sub_simples/src/py_pubsub' returned '0': PYTHONPATH=/home/andre/Documents/codes/ros/Pub_sub_simples/src/build/py_pubsub/prefix_override:/home/andre/Documents/codes/ros/Pub_sub_simples/src/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_pubsub build --build-base /home/andre/Documents/codes/ros/Pub_sub_simples/src/build/py_pubsub/build install --record /home/andre/Documents/codes/ros/Pub_sub_simples/src/build/py_pubsub/install.log --single-version-externally-managed

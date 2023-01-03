@@ -1,0 +1,43 @@
+[1.629s] Invoking command in '/home/andre/Documents/codes/ros/Service_simples/py_srvcli': PYTHONPATH=/home/andre/Documents/codes/ros/Service_simples/build/py_srvcli/prefix_override:/home/andre/Documents/codes/ros/Service_simples/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_srvcli build --build-base /home/andre/Documents/codes/ros/Service_simples/build/py_srvcli/build install --record /home/andre/Documents/codes/ros/Service_simples/build/py_srvcli/install.log --single-version-externally-managed
+[2.194s] running egg_info
+[2.195s] creating ../build/py_srvcli/py_srvcli.egg-info
+[2.196s] writing ../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[2.196s] writing dependency_links to ../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[2.197s] writing entry points to ../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[2.197s] writing requirements to ../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[2.197s] writing top-level names to ../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[2.198s] writing manifest file '../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.200s] reading manifest file '../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.202s] writing manifest file '../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.202s] running build
+[2.203s] running build_py
+[2.203s] creating /home/andre/Documents/codes/ros/Service_simples/build/py_srvcli/build
+[2.203s] creating /home/andre/Documents/codes/ros/Service_simples/build/py_srvcli/build/lib
+[2.203s] creating /home/andre/Documents/codes/ros/Service_simples/build/py_srvcli/build/lib/py_srvcli
+[2.204s] copying py_srvcli/client.py -> /home/andre/Documents/codes/ros/Service_simples/build/py_srvcli/build/lib/py_srvcli
+[2.204s] copying py_srvcli/__init__.py -> /home/andre/Documents/codes/ros/Service_simples/build/py_srvcli/build/lib/py_srvcli
+[2.204s] copying py_srvcli/service.py -> /home/andre/Documents/codes/ros/Service_simples/build/py_srvcli/build/lib/py_srvcli
+[2.205s] running install
+[2.205s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.205s]   warnings.warn(
+[2.205s] running install_lib
+[2.207s] creating /home/andre/Documents/codes/ros/Service_simples/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[2.207s] copying /home/andre/Documents/codes/ros/Service_simples/build/py_srvcli/build/lib/py_srvcli/client.py -> /home/andre/Documents/codes/ros/Service_simples/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[2.207s] copying /home/andre/Documents/codes/ros/Service_simples/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/andre/Documents/codes/ros/Service_simples/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[2.208s] copying /home/andre/Documents/codes/ros/Service_simples/build/py_srvcli/build/lib/py_srvcli/service.py -> /home/andre/Documents/codes/ros/Service_simples/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[2.209s] byte-compiling /home/andre/Documents/codes/ros/Service_simples/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client.py to client.cpython-310.pyc
+[2.211s] byte-compiling /home/andre/Documents/codes/ros/Service_simples/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc
+[2.212s] byte-compiling /home/andre/Documents/codes/ros/Service_simples/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service.py to service.cpython-310.pyc
+[2.212s] running install_data
+[2.213s] creating /home/andre/Documents/codes/ros/Service_simples/install/py_srvcli/share/ament_index
+[2.214s] creating /home/andre/Documents/codes/ros/Service_simples/install/py_srvcli/share/ament_index/resource_index
+[2.214s] creating /home/andre/Documents/codes/ros/Service_simples/install/py_srvcli/share/ament_index/resource_index/packages
+[2.214s] copying resource/py_srvcli -> /home/andre/Documents/codes/ros/Service_simples/install/py_srvcli/share/ament_index/resource_index/packages
+[2.215s] copying package.xml -> /home/andre/Documents/codes/ros/Service_simples/install/py_srvcli/share/py_srvcli
+[2.219s] running install_egg_info
+[2.219s] Copying ../build/py_srvcli/py_srvcli.egg-info to /home/andre/Documents/codes/ros/Service_simples/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[2.221s] running install_scripts
+[2.262s] Installing client script to /home/andre/Documents/codes/ros/Service_simples/install/py_srvcli/lib/py_srvcli
+[2.263s] Installing service script to /home/andre/Documents/codes/ros/Service_simples/install/py_srvcli/lib/py_srvcli
+[2.263s] writing list of installed files to '/home/andre/Documents/codes/ros/Service_simples/build/py_srvcli/install.log'
+[2.306s] Invoked command in '/home/andre/Documents/codes/ros/Service_simples/py_srvcli' returned '0': PYTHONPATH=/home/andre/Documents/codes/ros/Service_simples/build/py_srvcli/prefix_override:/home/andre/Documents/codes/ros/Service_simples/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_srvcli build --build-base /home/andre/Documents/codes/ros/Service_simples/build/py_srvcli/build install --record /home/andre/Documents/codes/ros/Service_simples/build/py_srvcli/install.log --single-version-externally-managed
