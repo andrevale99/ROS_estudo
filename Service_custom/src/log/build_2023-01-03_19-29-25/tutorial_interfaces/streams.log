@@ -1,0 +1,262 @@
+[0.029s] Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/py_srvcli:/opt/ros/humble /usr/bin/cmake /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces
+[0.053s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.329s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.460s] -- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.526s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.532s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.547s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.607s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.862s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.231s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.881s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.115s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.154s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[2.156s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.199s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[2.199s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.199s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.200s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.240s] -- Found PythonExtra: .so  
+[2.297s] -- Added test 'lint_cmake' to check CMake code style
+[2.299s] -- Added test 'xmllint' to check XML markup files
+[2.308s] -- Configuring done
+[2.371s] -- Generating done
+[2.377s] -- Build files have been written to: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/build/tutorial_interfaces
+[2.389s] Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/py_srvcli:/opt/ros/humble /usr/bin/cmake /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces
+[2.393s] Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/build/tutorial_interfaces -- -j4 -l4
+[2.459s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.474s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.490s] [  5%] Built target ament_cmake_python_copy_tutorial_interfaces
+[3.125s] running egg_info
+[3.127s] creating tutorial_interfaces.egg-info
+[3.127s] writing tutorial_interfaces.egg-info/PKG-INFO
+[3.128s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[3.128s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[3.129s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[3.134s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[3.136s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[3.207s] [  5%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[3.394s] [  5%] Built target tutorial_interfaces__cpp
+[3.415s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.422s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.427s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.885s] [ 15%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[4.200s] [ 17%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/sum__functions.c.o[0m
+[4.572s] [ 20%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[4.592s] [ 23%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[4.868s] [ 23%] Built target tutorial_interfaces__rosidl_generator_c
+[4.948s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.983s] [ 28%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[5.281s] [ 30%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[5.759s] [ 33%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/sum__type_support.cpp.o[0m
+[7.000s] [ 35%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[7.359s] [ 38%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/sum__type_support.cpp.o[0m
+[7.529s] [ 41%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/sum__type_support.cpp.o[0m
+[7.635s] [ 43%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[7.950s] [ 43%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[8.018s] [ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.925s] [ 48%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/sum__type_support_c.cpp.o[0m
+[8.980s] [ 51%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[9.094s] [ 51%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[9.115s] [ 53%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.340s] [ 56%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[9.371s] [ 58%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.417s] [ 61%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/sum__type_support.c.o[0m
+[9.507s] [ 64%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[9.582s] [ 64%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[9.606s] [ 64%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[9.916s] [ 69%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/sum__type_support.cpp.o[0m
+[9.916s] [ 69%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[9.949s] [ 71%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.983s] [ 74%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[10.045s] [ 74%] Built target tutorial_interfaces__rosidl_typesupport_c
+[10.110s] [ 74%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[10.138s] [ 74%] Built target tutorial_interfaces
+[10.171s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.029s] [ 76%] Built target tutorial_interfaces__py
+[11.060s] [ 79%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[11.061s] [ 82%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_sum_s.c.o[0m
+[11.307s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so[0m
+[11.376s] [ 84%] Built target tutorial_interfaces__rosidl_generator_py
+[11.406s] [ 87%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.410s] [ 89%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.412s] [ 92%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[11.650s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.660s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.666s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.724s] [100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[11.726s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[11.734s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[11.752s] Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/build/tutorial_interfaces -- -j4 -l4
+[11.864s] Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --install /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/build/tutorial_interfaces
+[11.876s] -- Install configuration: ""
+[11.876s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[11.877s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[11.878s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[11.878s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[11.879s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__functions.c
+[11.879s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__type_support.h
+[11.879s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__functions.h
+[11.880s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__struct.h
+[11.880s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/sum.h
+[11.880s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[11.880s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[11.880s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+[11.881s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+[11.881s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c
+[11.881s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+[11.882s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+[11.882s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[11.882s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[11.882s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[11.882s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[11.883s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[11.883s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[11.884s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[11.884s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[11.884s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__rosidl_typesupport_fastrtps_c.h
+[11.884s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[11.885s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[11.885s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[11.885s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.886s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[11.886s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[11.886s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[11.887s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[11.887s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[11.887s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__builder.hpp
+[11.888s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__traits.hpp
+[11.888s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__struct.hpp
+[11.888s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/sum.hpp
+[11.888s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[11.889s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[11.889s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+[11.889s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+[11.890s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+[11.890s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+[11.890s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[11.891s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[11.892s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[11.892s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__rosidl_typesupport_fastrtps_cpp.hpp
+[11.892s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+[11.893s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[11.893s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.893s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[11.893s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[11.894s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps
+[11.894s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[11.894s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.894s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[11.895s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[11.895s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[11.895s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__type_support.c
+[11.895s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__rosidl_typesupport_introspection_c.h
+[11.896s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[11.896s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.897s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[11.897s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[11.897s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[11.898s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[11.898s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[11.898s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[11.898s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[11.899s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[11.899s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[11.899s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[11.900s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__type_support.cpp
+[11.900s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__rosidl_typesupport_introspection_cpp.hpp
+[11.900s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[11.900s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[11.901s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[11.901s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp
+[11.901s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[11.902s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[11.902s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[11.902s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[11.903s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[11.903s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[11.903s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info
+[11.903s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.904s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[11.904s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[11.904s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.904s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces
+[11.904s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv
+[11.905s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py
+[11.905s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_sum.py
+[11.905s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_sum_s.c
+[11.906s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py
+[11.906s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.906s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.906s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.906s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so
+[11.907s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[11.907s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.907s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg
+[11.907s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c
+[11.907s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py
+[11.907s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py
+[11.908s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[11.969s] Listing '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...
+[11.969s] Compiling '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...
+[11.969s] Listing '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...
+[11.970s] Compiling '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py'...
+[11.970s] Compiling '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py'...
+[11.970s] Listing '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...
+[11.970s] Compiling '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py'...
+[11.970s] Compiling '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_sum.py'...
+[11.978s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.979s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.980s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.980s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.981s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.982s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.982s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[11.983s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""
+[11.983s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[11.984s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/srv/Sum.idl
+[11.984s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[11.985s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/srv/Sum.srv
+[11.985s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/srv/Sum_Request.msg
+[11.985s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/srv/Sum_Response.msg
+[11.986s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[11.986s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[11.987s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[11.987s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[11.987s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[11.988s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[11.988s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[11.988s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[11.989s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[11.989s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[11.990s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[11.990s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[11.991s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[11.991s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.991s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[11.992s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.992s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[11.993s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.993s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.994s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.994s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.994s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[11.995s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.995s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.995s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.996s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[11.996s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.997s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[11.997s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[11.998s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.998s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.999s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.999s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.999s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.000s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.000s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.000s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[12.001s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[12.001s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[12.006s] Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --install /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/build/tutorial_interfaces

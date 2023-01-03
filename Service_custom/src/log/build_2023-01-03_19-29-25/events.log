@@ -1,0 +1,391 @@
+[0.000000] (-) TimerEvent: {}
+[0.001317] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001510] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.001935] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.025393] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.026620] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces'], 'cwd': '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'andre'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/andre'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces'), ('TERM_PROGRAM_VERSION', '1.74.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1859'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install:/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andre'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'andre'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/andreNOTE:@/tmp/.ICE-unix/1734,unix/andreNOTE:/tmp/.ICE-unix/1734'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/33a56544_1598_4dba_ab50_a4ebaa29145c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FAREY1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-70a8761826.sock'), ('GNOME_TERMINAL_SERVICE', ':1.431'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/py_srvcli:/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces/install/tutorial_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/py_srvcli/lib/python3.10/site-packages:/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces/install/tutorial_interfaces:/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/py_srvcli:/opt/ros/humble')]), 'shell': False}
+[0.055480] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099293] (-) TimerEvent: {}
+[0.199685] (-) TimerEvent: {}
+[0.300209] (-) TimerEvent: {}
+[0.331270] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.400323] (-) TimerEvent: {}
+[0.462412] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.500471] (-) TimerEvent: {}
+[0.528965] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.535089] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.549110] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.574945] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600604] (-) TimerEvent: {}
+[0.609106] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700734] (-) TimerEvent: {}
+[0.801189] (-) TimerEvent: {}
+[0.864379] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.901302] (-) TimerEvent: {}
+[1.001740] (-) TimerEvent: {}
+[1.102190] (-) TimerEvent: {}
+[1.202652] (-) TimerEvent: {}
+[1.232882] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.302813] (-) TimerEvent: {}
+[1.403284] (-) TimerEvent: {}
+[1.503776] (-) TimerEvent: {}
+[1.604224] (-) TimerEvent: {}
+[1.704644] (-) TimerEvent: {}
+[1.805257] (-) TimerEvent: {}
+[1.883226] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.905418] (-) TimerEvent: {}
+[2.005972] (-) TimerEvent: {}
+[2.106562] (-) TimerEvent: {}
+[2.117981] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.157134] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[2.159224] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.201545] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[2.202003] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.202244] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.202480] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.206684] (-) TimerEvent: {}
+[2.242967] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.299661] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.302016] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.306794] (-) TimerEvent: {}
+[2.310720] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.374032] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.379421] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/build/tutorial_interfaces\n'}
+[2.391843] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[2.393350] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[2.395498] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/build/tutorial_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'andre'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/andre'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces'), ('TERM_PROGRAM_VERSION', '1.74.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1859'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install:/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andre'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'andre'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/andreNOTE:@/tmp/.ICE-unix/1734,unix/andreNOTE:/tmp/.ICE-unix/1734'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/33a56544_1598_4dba_ab50_a4ebaa29145c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FAREY1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-70a8761826.sock'), ('GNOME_TERMINAL_SERVICE', ':1.431'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/py_srvcli:/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces/install/tutorial_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/py_srvcli/lib/python3.10/site-packages:/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces/install/tutorial_interfaces:/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/py_srvcli:/opt/ros/humble')]), 'shell': False}
+[2.406964] (-) TimerEvent: {}
+[2.462107] (tutorial_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.476680] (tutorial_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.492904] (tutorial_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[2.507095] (-) TimerEvent: {}
+[2.612249] (-) TimerEvent: {}
+[2.712739] (-) TimerEvent: {}
+[2.815008] (-) TimerEvent: {}
+[2.924818] (-) TimerEvent: {}
+[3.026772] (-) TimerEvent: {}
+[3.127395] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.127745] (-) TimerEvent: {}
+[3.129841] (tutorial_interfaces) StdoutLine: {'line': b'creating tutorial_interfaces.egg-info\n'}
+[3.130241] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[3.130916] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[3.131196] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[3.131499] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[3.136902] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[3.138398] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[3.209866] (tutorial_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[3.227871] (-) TimerEvent: {}
+[3.328256] (-) TimerEvent: {}
+[3.396082] (tutorial_interfaces) StdoutLine: {'line': b'[  5%] Built target tutorial_interfaces__cpp\n'}
+[3.417536] (tutorial_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.424700] (tutorial_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.428430] (-) TimerEvent: {}
+[3.429677] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.528542] (-) TimerEvent: {}
+[3.632398] (-) TimerEvent: {}
+[3.733388] (-) TimerEvent: {}
+[3.833837] (-) TimerEvent: {}
+[3.887401] (tutorial_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[3.933959] (-) TimerEvent: {}
+[4.034416] (-) TimerEvent: {}
+[4.134934] (-) TimerEvent: {}
+[4.202817] (tutorial_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/sum__functions.c.o\x1b[0m\n'}
+[4.235045] (-) TimerEvent: {}
+[4.335482] (-) TimerEvent: {}
+[4.435969] (-) TimerEvent: {}
+[4.536470] (-) TimerEvent: {}
+[4.574782] (tutorial_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[4.594826] (tutorial_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.636588] (-) TimerEvent: {}
+[4.737124] (-) TimerEvent: {}
+[4.841421] (-) TimerEvent: {}
+[4.870287] (tutorial_interfaces) StdoutLine: {'line': b'[ 23%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[4.941559] (-) TimerEvent: {}
+[4.950498] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.985216] (tutorial_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[5.042132] (-) TimerEvent: {}
+[5.142653] (-) TimerEvent: {}
+[5.243296] (-) TimerEvent: {}
+[5.284105] (tutorial_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[5.343412] (-) TimerEvent: {}
+[5.445488] (-) TimerEvent: {}
+[5.552879] (-) TimerEvent: {}
+[5.655191] (-) TimerEvent: {}
+[5.757702] (-) TimerEvent: {}
+[5.761391] (tutorial_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/sum__type_support.cpp.o\x1b[0m\n'}
+[5.861413] (-) TimerEvent: {}
+[5.964919] (-) TimerEvent: {}
+[6.072230] (-) TimerEvent: {}
+[6.176260] (-) TimerEvent: {}
+[6.280409] (-) TimerEvent: {}
+[6.381793] (-) TimerEvent: {}
+[6.498055] (-) TimerEvent: {}
+[6.598992] (-) TimerEvent: {}
+[6.699550] (-) TimerEvent: {}
+[6.800058] (-) TimerEvent: {}
+[6.900543] (-) TimerEvent: {}
+[7.002930] (tutorial_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[7.003362] (-) TimerEvent: {}
+[7.104596] (-) TimerEvent: {}
+[7.205139] (-) TimerEvent: {}
+[7.310872] (-) TimerEvent: {}
+[7.361420] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/sum__type_support.cpp.o\x1b[0m\n'}
+[7.411040] (-) TimerEvent: {}
+[7.511557] (-) TimerEvent: {}
+[7.531989] (tutorial_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/sum__type_support.cpp.o\x1b[0m\n'}
+[7.611703] (-) TimerEvent: {}
+[7.632767] (tutorial_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.711843] (-) TimerEvent: {}
+[7.815341] (-) TimerEvent: {}
+[7.916471] (-) TimerEvent: {}
+[7.952650] (tutorial_interfaces) StdoutLine: {'line': b'[ 43%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[8.016657] (-) TimerEvent: {}
+[8.020205] (tutorial_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.116779] (-) TimerEvent: {}
+[8.219284] (-) TimerEvent: {}
+[8.319816] (-) TimerEvent: {}
+[8.420440] (-) TimerEvent: {}
+[8.520916] (-) TimerEvent: {}
+[8.621481] (-) TimerEvent: {}
+[8.722037] (-) TimerEvent: {}
+[8.832314] (-) TimerEvent: {}
+[8.927409] (tutorial_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/sum__type_support_c.cpp.o\x1b[0m\n'}
+[8.932435] (-) TimerEvent: {}
+[8.982900] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.038654] (-) TimerEvent: {}
+[9.096452] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[9.117923] (tutorial_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.138774] (-) TimerEvent: {}
+[9.239379] (-) TimerEvent: {}
+[9.340013] (-) TimerEvent: {}
+[9.342077] (tutorial_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[9.373484] (tutorial_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.419165] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/sum__type_support.c.o\x1b[0m\n'}
+[9.440155] (-) TimerEvent: {}
+[9.509284] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.540287] (-) TimerEvent: {}
+[9.584973] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[9.608429] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.640406] (-) TimerEvent: {}
+[9.740863] (-) TimerEvent: {}
+[9.842406] (-) TimerEvent: {}
+[9.918546] (tutorial_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/sum__type_support.cpp.o\x1b[0m\n'}
+[9.919015] (tutorial_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[9.942536] (-) TimerEvent: {}
+[9.951071] (tutorial_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.985407] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.042695] (-) TimerEvent: {}
+[10.047747] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[10.113201] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[10.140416] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces\n'}
+[10.142815] (-) TimerEvent: {}
+[10.173588] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.242952] (-) TimerEvent: {}
+[10.343351] (-) TimerEvent: {}
+[10.443754] (-) TimerEvent: {}
+[10.544156] (-) TimerEvent: {}
+[10.644569] (-) TimerEvent: {}
+[10.744969] (-) TimerEvent: {}
+[10.845359] (-) TimerEvent: {}
+[10.945758] (-) TimerEvent: {}
+[11.031256] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces__py\n'}
+[11.045924] (-) TimerEvent: {}
+[11.061330] (tutorial_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[11.063452] (tutorial_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_sum_s.c.o\x1b[0m\n'}
+[11.146044] (-) TimerEvent: {}
+[11.246467] (-) TimerEvent: {}
+[11.309913] (tutorial_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[11.346607] (-) TimerEvent: {}
+[11.378290] (tutorial_interfaces) StdoutLine: {'line': b'[ 84%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[11.408992] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.411989] (tutorial_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.414148] (tutorial_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.446744] (-) TimerEvent: {}
+[11.547795] (-) TimerEvent: {}
+[11.648877] (-) TimerEvent: {}
+[11.652395] (tutorial_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.662628] (tutorial_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.668352] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.726328] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[11.728814] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.736985] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[11.749014] (-) TimerEvent: {}
+[11.753998] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[11.849183] (-) TimerEvent: {}
+[11.850302] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[11.865836] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/build/tutorial_interfaces'], 'cwd': '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'andre'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/andre'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces'), ('TERM_PROGRAM_VERSION', '1.74.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1859'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install:/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andre'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'andre'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/andreNOTE:@/tmp/.ICE-unix/1734,unix/andreNOTE:/tmp/.ICE-unix/1734'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/33a56544_1598_4dba_ab50_a4ebaa29145c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FAREY1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-70a8761826.sock'), ('GNOME_TERMINAL_SERVICE', ':1.431'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/py_srvcli:/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces/install/tutorial_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/py_srvcli/lib/python3.10/site-packages:/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces/install/tutorial_interfaces:/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/py_srvcli:/opt/ros/humble')]), 'shell': False}
+[11.878617] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.879130] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[11.879649] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[11.880343] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[11.880835] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[11.881051] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__functions.c\n'}
+[11.881610] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__type_support.h\n'}
+[11.881919] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__functions.h\n'}
+[11.882285] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__struct.h\n'}
+[11.882536] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/sum.h\n'}
+[11.882767] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[11.883031] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[11.883229] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h\n'}
+[11.883463] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h\n'}
+[11.883791] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c\n'}
+[11.884028] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h\n'}
+[11.884305] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h\n'}
+[11.884569] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.884819] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[11.884992] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[11.885164] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[11.885573] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""\n'}
+[11.885966] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[11.886311] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[11.886655] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[11.886963] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__rosidl_typesupport_fastrtps_c.h\n'}
+[11.887268] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[11.887522] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[11.887787] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[11.888048] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.888417] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[11.888734] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.889037] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[11.889336] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[11.889645] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[11.890028] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__builder.hpp\n'}
+[11.890313] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__traits.hpp\n'}
+[11.890598] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__struct.hpp\n'}
+[11.890879] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/sum.hpp\n'}
+[11.891122] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[11.891524] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[11.891772] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp\n'}
+[11.892121] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp\n'}
+[11.892395] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp\n'}
+[11.892647] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp\n'}
+[11.892894] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[11.893749] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[11.894324] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[11.894907] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.895176] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[11.895453] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[11.895654] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.895882] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[11.896224] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.896397] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps\n'}
+[11.896576] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.896898] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.897113] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[11.897433] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[11.897763] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[11.897985] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__type_support.c\n'}
+[11.898201] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__rosidl_typesupport_introspection_c.h\n'}
+[11.898553] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[11.898889] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.899289] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[11.899590] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c\n'}
+[11.899887] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[11.900294] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[11.900570] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.900838] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[11.901138] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[11.901439] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[11.901724] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[11.901983] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[11.902338] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__type_support.cpp\n'}
+[11.902622] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/sum__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.902893] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[11.903178] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[11.903477] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.903776] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp\n'}
+[11.904068] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[11.904383] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.904729] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[11.905091] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[11.905384] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[11.905701] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[11.905919] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info\n'}
+[11.906143] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.906325] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[11.906544] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[11.906774] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.906946] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces\n'}
+[11.907176] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv\n'}
+[11.907413] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py\n'}
+[11.907728] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_sum.py\n'}
+[11.908068] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_sum_s.c\n'}
+[11.908305] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py\n'}
+[11.908560] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.908806] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.908988] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.909166] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[11.909339] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.909513] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.909681] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg\n'}
+[11.909819] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c\n'}
+[11.909997] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py\n'}
+[11.910168] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py\n'}
+[11.910338] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[11.949307] (-) TimerEvent: {}
+[11.971571] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...\n"}
+[11.971887] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...\n"}
+[11.972104] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...\n"}
+[11.972352] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py'...\n"}
+[11.972539] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py'...\n"}
+[11.972723] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...\n"}
+[11.972903] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py'...\n"}
+[11.973082] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_sum.py'...\n"}
+[11.981136] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.981855] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.982420] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.983254] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.983828] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.984803] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.985150] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[11.985831] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""\n'}
+[11.986150] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl\n'}
+[11.986567] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/srv/Sum.idl\n'}
+[11.986940] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg\n'}
+[11.987312] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/srv/Sum.srv\n'}
+[11.987680] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/srv/Sum_Request.msg\n'}
+[11.988036] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/srv/Sum_Response.msg\n'}
+[11.988509] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[11.988979] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[11.989338] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[11.989706] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[11.990080] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[11.990450] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[11.990807] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[11.991185] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[11.991588] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[11.991959] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[11.992346] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[11.992837] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[11.993312] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[11.993721] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.994148] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.994612] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.995019] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[11.995445] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.995854] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.996287] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.996679] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.997078] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[11.997451] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.997899] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.998268] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.998716] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[11.999152] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.999619] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake\n'}
+[12.000032] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.000504] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[12.000902] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.001265] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.001623] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.001971] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.002328] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.002705] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.003068] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[12.003406] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[12.003717] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Service_custom/src/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[12.007478] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[12.049446] (-) TimerEvent: {}
+[12.149858] (-) TimerEvent: {}
+[12.195874] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[12.197224] (-) EventReactorShutdown: {}

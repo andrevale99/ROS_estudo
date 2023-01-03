@@ -1,0 +1,7 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces:msg/Num.msg",
+    "/home/andre/Desktop/Git/ROS_estudo/Service_custom/src/tutorial_interfaces:srv/Sum.srv"
+  ]
+}
