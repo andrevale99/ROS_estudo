@@ -1,0 +1,124 @@
+[1.011s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'resumo_mod_basico']
+[1.012s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['resumo_mod_basico'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fbec0e0d8d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fbec1798070>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fbec1798070>>)
+[1.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.078s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'ignore'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'ignore_ament_install'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['colcon_pkg']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'colcon_pkg'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['colcon_meta']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'colcon_meta'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['ros']
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'ros'
+[1.143s] DEBUG:colcon.colcon_core.package_identification:Package 'custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(resumo_mod_basico) by extensions ['ignore', 'ignore_ament_install']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(resumo_mod_basico) by extension 'ignore'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(resumo_mod_basico) by extension 'ignore_ament_install'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(resumo_mod_basico) by extensions ['colcon_pkg']
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(resumo_mod_basico) by extension 'colcon_pkg'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(resumo_mod_basico) by extensions ['colcon_meta']
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(resumo_mod_basico) by extension 'colcon_meta'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(resumo_mod_basico) by extensions ['ros']
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(resumo_mod_basico) by extension 'ros'
+[1.148s] DEBUG:colcon.colcon_core.package_identification:Package 'resumo_mod_basico' with type 'ros.ament_python' and name 'resumo_mod_basico'
+[1.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.219s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'custom_interfaces' in 'custom_interfaces'
+[1.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.230s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install
+[1.236s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[1.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.503s] Level 5:colcon.colcon_core.verb:set package 'resumo_mod_basico' build argument 'cmake_args' from command line to 'None'
+[1.503s] Level 5:colcon.colcon_core.verb:set package 'resumo_mod_basico' build argument 'cmake_target' from command line to 'None'
+[1.503s] Level 5:colcon.colcon_core.verb:set package 'resumo_mod_basico' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.504s] Level 5:colcon.colcon_core.verb:set package 'resumo_mod_basico' build argument 'cmake_clean_cache' from command line to 'False'
+[1.504s] Level 5:colcon.colcon_core.verb:set package 'resumo_mod_basico' build argument 'cmake_clean_first' from command line to 'False'
+[1.504s] Level 5:colcon.colcon_core.verb:set package 'resumo_mod_basico' build argument 'cmake_force_configure' from command line to 'False'
+[1.504s] Level 5:colcon.colcon_core.verb:set package 'resumo_mod_basico' build argument 'ament_cmake_args' from command line to 'None'
+[1.505s] Level 5:colcon.colcon_core.verb:set package 'resumo_mod_basico' build argument 'catkin_cmake_args' from command line to 'None'
+[1.505s] Level 5:colcon.colcon_core.verb:set package 'resumo_mod_basico' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.505s] DEBUG:colcon.colcon_core.verb:Building package 'resumo_mod_basico' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico', 'merge_install': False, 'path': '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/resumo_mod_basico', 'symlink_install': False, 'test_result_base': None}
+[1.508s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.523s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.523s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/resumo_mod_basico' with build type 'ament_python'
+[1.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('resumo_mod_basico', 'ament_prefix_path')
+[1.533s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/share/resumo_mod_basico/hook/ament_prefix_path.ps1'
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/share/resumo_mod_basico/hook/ament_prefix_path.dsv'
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/share/resumo_mod_basico/hook/ament_prefix_path.sh'
+[1.540s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.541s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.421s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/resumo_mod_basico'
+[2.426s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.426s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/resumo_mod_basico': PYTHONPATH=/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/prefix_override:/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/resumo_mod_basico build --build-base /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build install --record /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/install.log --single-version-externally-managed
+[3.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/resumo_mod_basico' returned '0': PYTHONPATH=/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/prefix_override:/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/resumo_mod_basico build --build-base /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build install --record /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/install.log --single-version-externally-managed
+[3.985s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico' for CMake module files
+[3.986s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico' for CMake config files
+[3.987s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib'
+[3.988s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/bin'
+[3.988s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/pkgconfig/resumo_mod_basico.pc'
+[3.988s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages'
+[3.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('resumo_mod_basico', 'pythonpath')
+[3.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/share/resumo_mod_basico/hook/pythonpath.ps1'
+[3.992s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/share/resumo_mod_basico/hook/pythonpath.dsv'
+[3.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/share/resumo_mod_basico/hook/pythonpath.sh'
+[3.993s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/bin'
+[3.993s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(resumo_mod_basico)
+[3.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/share/resumo_mod_basico/package.ps1'
+[3.998s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/share/resumo_mod_basico/package.dsv'
+[3.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/share/resumo_mod_basico/package.sh'
+[4.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/share/resumo_mod_basico/package.bash'
+[4.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/share/resumo_mod_basico/package.zsh'
+[4.003s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/share/colcon-core/packages/resumo_mod_basico)
+[4.003s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.004s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.004s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.004s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.016s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.017s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.017s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.031s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.036s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/local_setup.ps1'
+[4.038s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/_local_setup_util_ps1.py'
+[4.045s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/setup.ps1'
+[4.050s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/local_setup.sh'
+[4.052s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/_local_setup_util_sh.py'
+[4.054s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/setup.sh'
+[4.060s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/local_setup.bash'
+[4.063s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/setup.bash'
+[4.068s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/local_setup.zsh'
+[4.069s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/setup.zsh'

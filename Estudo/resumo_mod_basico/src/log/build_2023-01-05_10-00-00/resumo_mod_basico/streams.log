@@ -1,0 +1,41 @@
+[4.187s] Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/resumo_mod_basico': PYTHONPATH=/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/prefix_override:/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/resumo_mod_basico build --build-base /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build install --record /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/install.log --single-version-externally-managed
+[4.668s] running egg_info
+[4.669s] creating ../build/resumo_mod_basico/resumo_mod_basico.egg-info
+[4.669s] writing ../build/resumo_mod_basico/resumo_mod_basico.egg-info/PKG-INFO
+[4.670s] writing dependency_links to ../build/resumo_mod_basico/resumo_mod_basico.egg-info/dependency_links.txt
+[4.670s] writing entry points to ../build/resumo_mod_basico/resumo_mod_basico.egg-info/entry_points.txt
+[4.670s] writing requirements to ../build/resumo_mod_basico/resumo_mod_basico.egg-info/requires.txt
+[4.671s] writing top-level names to ../build/resumo_mod_basico/resumo_mod_basico.egg-info/top_level.txt
+[4.671s] writing manifest file '../build/resumo_mod_basico/resumo_mod_basico.egg-info/SOURCES.txt'
+[4.674s] reading manifest file '../build/resumo_mod_basico/resumo_mod_basico.egg-info/SOURCES.txt'
+[4.675s] writing manifest file '../build/resumo_mod_basico/resumo_mod_basico.egg-info/SOURCES.txt'
+[4.676s] running build
+[4.676s] running build_py
+[4.676s] creating /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build
+[4.677s] creating /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build/lib
+[4.677s] creating /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build/lib/resumo_mod_basico
+[4.677s] copying resumo_mod_basico/client.py -> /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build/lib/resumo_mod_basico
+[4.677s] copying resumo_mod_basico/__init__.py -> /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build/lib/resumo_mod_basico
+[4.678s] copying resumo_mod_basico/service.py -> /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build/lib/resumo_mod_basico
+[4.678s] running install
+[4.696s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.697s]   warnings.warn(
+[4.697s] running install_lib
+[4.698s] creating /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages/resumo_mod_basico
+[4.699s] copying /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build/lib/resumo_mod_basico/client.py -> /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages/resumo_mod_basico
+[4.699s] copying /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build/lib/resumo_mod_basico/__init__.py -> /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages/resumo_mod_basico
+[4.699s] copying /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build/lib/resumo_mod_basico/service.py -> /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages/resumo_mod_basico
+[4.700s] byte-compiling /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages/resumo_mod_basico/client.py to client.cpython-310.pyc
+[4.700s] byte-compiling /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages/resumo_mod_basico/__init__.py to __init__.cpython-310.pyc
+[4.701s] byte-compiling /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages/resumo_mod_basico/service.py to service.cpython-310.pyc
+[4.701s] running install_data
+[4.702s] creating /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/share/ament_index
+[4.703s] creating /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/share/ament_index/resource_index
+[4.703s] creating /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/share/ament_index/resource_index/packages
+[4.703s] copying resource/resumo_mod_basico -> /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/share/ament_index/resource_index/packages
+[4.703s] copying package.xml -> /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/share/resumo_mod_basico
+[4.703s] running install_egg_info
+[4.706s] Copying ../build/resumo_mod_basico/resumo_mod_basico.egg-info to /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages/resumo_mod_basico-0.0.0-py3.10.egg-info
+[4.708s] running install_scripts
+[4.752s] writing list of installed files to '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/install.log'
+[4.796s] Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/resumo_mod_basico' returned '0': PYTHONPATH=/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/prefix_override:/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/resumo_mod_basico build --build-base /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build install --record /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/install.log --single-version-externally-managed

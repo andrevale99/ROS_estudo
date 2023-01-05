@@ -1,0 +1,27 @@
+[1.491s] Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/resumo_mod_basico': PYTHONPATH=/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/prefix_override:/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/resumo_mod_basico build --build-base /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build install --record /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/install.log --single-version-externally-managed
+[1.970s] running egg_info
+[1.971s] writing ../build/resumo_mod_basico/resumo_mod_basico.egg-info/PKG-INFO
+[1.972s] writing dependency_links to ../build/resumo_mod_basico/resumo_mod_basico.egg-info/dependency_links.txt
+[1.972s] writing entry points to ../build/resumo_mod_basico/resumo_mod_basico.egg-info/entry_points.txt
+[1.972s] writing requirements to ../build/resumo_mod_basico/resumo_mod_basico.egg-info/requires.txt
+[1.973s] writing top-level names to ../build/resumo_mod_basico/resumo_mod_basico.egg-info/top_level.txt
+[1.976s] reading manifest file '../build/resumo_mod_basico/resumo_mod_basico.egg-info/SOURCES.txt'
+[1.978s] writing manifest file '../build/resumo_mod_basico/resumo_mod_basico.egg-info/SOURCES.txt'
+[1.978s] running build
+[1.978s] running build_py
+[1.978s] copying resumo_mod_basico/client.py -> /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build/lib/resumo_mod_basico
+[1.979s] running install
+[1.979s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.979s]   warnings.warn(
+[1.980s] running install_lib
+[1.981s] copying /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build/lib/resumo_mod_basico/client.py -> /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages/resumo_mod_basico
+[1.982s] byte-compiling /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages/resumo_mod_basico/client.py to client.cpython-310.pyc
+[1.984s] running install_data
+[1.984s] running install_egg_info
+[1.987s] removing '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages/resumo_mod_basico-0.0.0-py3.10.egg-info' (and everything under it)
+[1.988s] Copying ../build/resumo_mod_basico/resumo_mod_basico.egg-info to /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages/resumo_mod_basico-0.0.0-py3.10.egg-info
+[1.990s] running install_scripts
+[2.034s] Installing client script to /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/resumo_mod_basico
+[2.035s] Installing service script to /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/resumo_mod_basico
+[2.035s] writing list of installed files to '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/install.log'
+[2.096s] Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/resumo_mod_basico' returned '0': PYTHONPATH=/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/prefix_override:/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/resumo_mod_basico build --build-base /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build install --record /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/install.log --single-version-externally-managed

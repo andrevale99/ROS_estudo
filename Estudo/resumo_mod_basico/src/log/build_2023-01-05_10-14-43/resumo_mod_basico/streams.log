@@ -1,0 +1,27 @@
+[1.368s] Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/resumo_mod_basico': PYTHONPATH=/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/prefix_override:/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/resumo_mod_basico build --build-base /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build install --record /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/install.log --single-version-externally-managed
+[2.075s] running egg_info
+[2.078s] writing ../build/resumo_mod_basico/resumo_mod_basico.egg-info/PKG-INFO
+[2.078s] writing dependency_links to ../build/resumo_mod_basico/resumo_mod_basico.egg-info/dependency_links.txt
+[2.079s] writing entry points to ../build/resumo_mod_basico/resumo_mod_basico.egg-info/entry_points.txt
+[2.079s] writing requirements to ../build/resumo_mod_basico/resumo_mod_basico.egg-info/requires.txt
+[2.079s] writing top-level names to ../build/resumo_mod_basico/resumo_mod_basico.egg-info/top_level.txt
+[2.085s] reading manifest file '../build/resumo_mod_basico/resumo_mod_basico.egg-info/SOURCES.txt'
+[2.088s] writing manifest file '../build/resumo_mod_basico/resumo_mod_basico.egg-info/SOURCES.txt'
+[2.088s] running build
+[2.089s] running build_py
+[2.089s] copying resumo_mod_basico/service.py -> /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build/lib/resumo_mod_basico
+[2.090s] running install
+[2.090s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.090s]   warnings.warn(
+[2.091s] running install_lib
+[2.093s] copying /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build/lib/resumo_mod_basico/service.py -> /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages/resumo_mod_basico
+[2.094s] byte-compiling /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages/resumo_mod_basico/service.py to service.cpython-310.pyc
+[2.096s] running install_data
+[2.097s] running install_egg_info
+[2.101s] removing '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages/resumo_mod_basico-0.0.0-py3.10.egg-info' (and everything under it)
+[2.102s] Copying ../build/resumo_mod_basico/resumo_mod_basico.egg-info to /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages/resumo_mod_basico-0.0.0-py3.10.egg-info
+[2.104s] running install_scripts
+[2.166s] Installing client script to /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/resumo_mod_basico
+[2.166s] Installing service script to /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/resumo_mod_basico
+[2.167s] writing list of installed files to '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/install.log'
+[2.241s] Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/resumo_mod_basico' returned '0': PYTHONPATH=/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/prefix_override:/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/resumo_mod_basico build --build-base /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build install --record /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/install.log --single-version-externally-managed

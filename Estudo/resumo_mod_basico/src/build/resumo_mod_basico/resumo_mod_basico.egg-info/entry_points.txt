@@ -1,0 +1,4 @@
+[console_scripts]
+client = resumo_mod_basico.client:main
+service = resumo_mod_basico.service:main
+

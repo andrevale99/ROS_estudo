@@ -1,0 +1,231 @@
+[0.088s] Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces
+[0.958s] -- The C compiler identification is GNU 11.3.0
+[1.463s] -- The CXX compiler identification is GNU 11.3.0
+[1.649s] -- Detecting C compiler ABI info
+[1.917s] -- Detecting C compiler ABI info - done
+[1.934s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.934s] -- Detecting C compile features
+[1.961s] -- Detecting C compile features - done
+[1.987s] -- Detecting CXX compiler ABI info
+[2.198s] -- Detecting CXX compiler ABI info - done
+[2.215s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.215s] -- Detecting CXX compile features
+[2.217s] -- Detecting CXX compile features - done
+[2.294s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.764s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.106s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.371s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.425s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.495s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.818s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.614s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.015s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.515s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.596s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[5.621s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.701s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[5.702s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.702s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.702s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.750s] -- Found PythonExtra: .so  
+[5.900s] -- Added test 'lint_cmake' to check CMake code style
+[5.926s] -- Added test 'xmllint' to check XML markup files
+[6.004s] -- Configuring done
+[6.127s] -- Generating done
+[6.134s] -- Build files have been written to: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/custom_interfaces
+[6.149s] Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces
+[6.155s] Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/custom_interfaces -- -j4 -l4
+[6.242s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.271s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.286s] [  6%] Built target ament_cmake_python_copy_custom_interfaces
+[7.128s] running egg_info
+[7.129s] creating custom_interfaces.egg-info
+[7.130s] writing custom_interfaces.egg-info/PKG-INFO
+[7.130s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[7.131s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[7.131s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[7.176s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[7.178s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[7.262s] [  6%] Built target ament_cmake_python_build_custom_interfaces_egg
+[7.556s] [  6%] Built target custom_interfaces__cpp
+[7.571s] [  9%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/max__functions.c.o[0m
+[7.585s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.619s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.625s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.182s] [ 22%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[8.496s] [ 22%] Built target custom_interfaces__rosidl_generator_c
+[8.563s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.036s] [ 29%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/max__type_support.cpp.o[0m
+[9.139s] [ 32%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/max__type_support.cpp.o[0m
+[9.188s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/max__type_support.cpp.o[0m
+[9.611s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/max__type_support_c.cpp.o[0m
+[10.596s] [ 41%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[10.943s] [ 41%] Built target custom_interfaces__rosidl_typesupport_cpp
+[10.980s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.247s] [ 48%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[11.248s] [ 51%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[11.544s] [ 54%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.572s] [ 54%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[11.620s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.738s] [ 58%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[11.948s] [ 58%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[12.127s] [ 61%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/max__type_support.c.o[0m
+[12.261s] [ 64%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[12.329s] [ 64%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[12.494s] [ 67%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/max__type_support.cpp.o[0m
+[12.575s] [ 70%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[12.670s] [ 70%] Built target custom_interfaces__rosidl_typesupport_c
+[12.697s] [ 70%] Built target custom_interfaces
+[12.736s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.591s] [ 74%] Built target custom_interfaces__py
+[13.626s] [ 77%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_max_s.c.o[0m
+[13.912s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so[0m
+[14.000s] [ 80%] Built target custom_interfaces__rosidl_generator_py
+[14.055s] [ 83%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.055s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[14.059s] [ 90%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.357s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.380s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.403s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.456s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[14.473s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[14.486s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[14.507s] Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/custom_interfaces -- -j4 -l4
+[14.611s] Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/custom_interfaces
+[14.622s] -- Install configuration: ""
+[14.623s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[14.623s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[14.623s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[14.624s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/max.h
+[14.624s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[14.624s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/max__type_support.h
+[14.625s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/max__functions.c
+[14.626s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/max__struct.h
+[14.626s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/max__functions.h
+[14.626s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[14.627s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[14.627s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[14.627s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[14.628s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[14.628s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[14.629s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[14.629s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[14.629s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[14.629s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/max__rosidl_typesupport_fastrtps_c.h
+[14.630s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[14.630s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.631s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[14.631s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[14.631s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[14.632s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[14.632s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[14.633s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/max__rosidl_typesupport_introspection_c.h
+[14.633s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/max__type_support.c
+[14.633s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[14.634s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.634s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[14.634s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[14.635s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[14.635s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[14.635s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[14.636s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[14.636s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/max.hpp
+[14.636s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[14.637s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/max__struct.hpp
+[14.637s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/max__builder.hpp
+[14.637s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/max__traits.hpp
+[14.638s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[14.638s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[14.638s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[14.639s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/max__rosidl_typesupport_fastrtps_cpp.hpp
+[14.639s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps
+[14.639s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[14.640s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.644s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[14.645s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.645s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[14.646s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[14.649s] -- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[14.649s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/max__type_support.cpp
+[14.650s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/max__rosidl_typesupport_introspection_cpp.hpp
+[14.650s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[14.650s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[14.651s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[14.651s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[14.652s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[14.652s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[14.652s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info
+[14.652s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[14.653s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[14.653s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[14.653s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[14.653s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces
+[14.654s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv
+[14.654s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_max.py
+[14.655s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py
+[14.655s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_max_s.c
+[14.655s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[14.655s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.656s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[14.656s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[14.656s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.657s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.658s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[14.662s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.747s] Listing '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[14.748s] Compiling '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...
+[14.748s] Listing '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...
+[14.749s] Compiling '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py'...
+[14.749s] Compiling '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_max.py'...
+[14.758s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.760s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.761s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.762s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.762s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.763s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.763s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[14.764s] -- Set runtime path of "/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[14.765s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/srv/Max.idl
+[14.765s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/srv/Max.srv
+[14.765s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/srv/Max_Request.msg
+[14.766s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/srv/Max_Response.msg
+[14.766s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[14.766s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[14.767s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[14.767s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[14.767s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[14.767s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[14.768s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[14.768s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[14.768s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[14.769s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[14.769s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/package.dsv
+[14.769s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[14.769s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[14.770s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[14.770s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[14.770s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.771s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[14.771s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.771s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[14.772s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[14.772s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[14.772s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.773s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.774s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[14.774s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.775s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[14.775s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[14.775s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[14.776s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[14.776s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[14.776s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.777s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[14.777s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[14.777s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.777s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.778s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.778s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[14.778s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[14.778s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/custom_interfaces/share/custom_interfaces/package.xml
+[14.782s] Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/custom_interfaces

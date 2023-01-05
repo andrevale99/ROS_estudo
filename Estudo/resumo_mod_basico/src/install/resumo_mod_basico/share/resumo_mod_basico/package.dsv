@@ -1,0 +1,6 @@
+source;share/resumo_mod_basico/hook/pythonpath.ps1
+source;share/resumo_mod_basico/hook/pythonpath.dsv
+source;share/resumo_mod_basico/hook/pythonpath.sh
+source;share/resumo_mod_basico/hook/ament_prefix_path.ps1
+source;share/resumo_mod_basico/hook/ament_prefix_path.dsv
+source;share/resumo_mod_basico/hook/ament_prefix_path.sh

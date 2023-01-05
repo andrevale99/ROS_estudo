@@ -1,0 +1,24 @@
+[1.564s] Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/resumo_mod_basico': PYTHONPATH=/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/prefix_override:/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/resumo_mod_basico build --build-base /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build install --record /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/install.log --single-version-externally-managed
+[2.027s] running egg_info
+[2.029s] writing ../build/resumo_mod_basico/resumo_mod_basico.egg-info/PKG-INFO
+[2.029s] writing dependency_links to ../build/resumo_mod_basico/resumo_mod_basico.egg-info/dependency_links.txt
+[2.030s] writing entry points to ../build/resumo_mod_basico/resumo_mod_basico.egg-info/entry_points.txt
+[2.031s] writing requirements to ../build/resumo_mod_basico/resumo_mod_basico.egg-info/requires.txt
+[2.031s] writing top-level names to ../build/resumo_mod_basico/resumo_mod_basico.egg-info/top_level.txt
+[2.034s] reading manifest file '../build/resumo_mod_basico/resumo_mod_basico.egg-info/SOURCES.txt'
+[2.036s] writing manifest file '../build/resumo_mod_basico/resumo_mod_basico.egg-info/SOURCES.txt'
+[2.036s] running build
+[2.036s] running build_py
+[2.037s] running install
+[2.037s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.038s]   warnings.warn(
+[2.038s] running install_lib
+[2.041s] running install_data
+[2.042s] running install_egg_info
+[2.044s] removing '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages/resumo_mod_basico-0.0.0-py3.10.egg-info' (and everything under it)
+[2.045s] Copying ../build/resumo_mod_basico/resumo_mod_basico.egg-info to /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages/resumo_mod_basico-0.0.0-py3.10.egg-info
+[2.047s] running install_scripts
+[2.080s] Installing client script to /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/resumo_mod_basico
+[2.080s] Installing service script to /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/resumo_mod_basico
+[2.081s] writing list of installed files to '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/install.log'
+[2.133s] Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/resumo_mod_basico' returned '0': PYTHONPATH=/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/prefix_override:/home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/install/resumo_mod_basico/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/resumo_mod_basico build --build-base /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/build install --record /home/andre/Desktop/Git/ROS_estudo/Estudo/resumo_mod_basico/src/build/resumo_mod_basico/install.log --single-version-externally-managed
