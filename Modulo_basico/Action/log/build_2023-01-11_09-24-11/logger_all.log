@@ -1,0 +1,159 @@
+[0.558s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.558s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fedeb0879a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fedeba28eb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fedeba28eb0>>)
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.596s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.596s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.596s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.596s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.596s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'ignore'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'ignore_ament_install'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extensions ['colcon_pkg']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'colcon_pkg'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extensions ['colcon_meta']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'colcon_meta'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extensions ['ros']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'ros'
+[0.644s] DEBUG:colcon.colcon_core.package_identification:Package 'src/action_tutorials_interfaces' with type 'ros.ament_cmake' and name 'action_tutorials_interfaces'
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.690s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.690s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.696s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[0.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.850s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'action_tutorials_interfaces' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding action_tutorials_interfaces
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.857s] DEBUG:colcon.colcon_core.verb:Building package 'action_tutorials_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/build/action_tutorials_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces', 'merge_install': False, 'path': '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/src/action_tutorials_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.859s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.868s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.868s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/src/action_tutorials_interfaces' with build type 'ament_cmake'
+[0.868s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/src/action_tutorials_interfaces'
+[0.882s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.883s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.883s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces
+[8.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces
+[8.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/build/action_tutorials_interfaces -- -j4 -l4
+[19.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/build/action_tutorials_interfaces -- -j4 -l4
+[19.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/build/action_tutorials_interfaces
+[19.748s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_tutorials_interfaces)
+[19.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/build/action_tutorials_interfaces
+[19.758s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces' for CMake module files
+[19.760s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces' for CMake config files
+[19.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'cmake_prefix_path')
+[19.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.ps1'
+[19.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.dsv'
+[19.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.sh'
+[19.768s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/lib'
+[19.768s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'ld_library_path_lib')
+[19.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.ps1'
+[19.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.dsv'
+[19.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.sh'
+[19.772s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/bin'
+[19.772s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/lib/pkgconfig/action_tutorials_interfaces.pc'
+[19.773s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/lib/python3.10/site-packages'
+[19.773s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/bin'
+[19.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.ps1'
+[19.778s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv'
+[19.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.sh'
+[19.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.bash'
+[19.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.zsh'
+[19.782s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/colcon-core/packages/action_tutorials_interfaces)
+[19.865s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_tutorials_interfaces)
+[19.869s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces' for CMake module files
+[19.870s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces' for CMake config files
+[19.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'cmake_prefix_path')
+[19.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.ps1'
+[19.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.dsv'
+[19.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.sh'
+[19.875s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/lib'
+[19.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'ld_library_path_lib')
+[19.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.ps1'
+[19.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.dsv'
+[19.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.sh'
+[19.879s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/bin'
+[19.879s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/lib/pkgconfig/action_tutorials_interfaces.pc'
+[19.880s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/lib/python3.10/site-packages'
+[19.880s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/bin'
+[19.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.ps1'
+[19.884s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv'
+[19.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.sh'
+[19.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.bash'
+[19.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.zsh'
+[19.887s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/action_tutorials_interfaces/share/colcon-core/packages/action_tutorials_interfaces)
+[19.887s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.888s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.888s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.888s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.904s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.904s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.904s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.938s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.943s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/local_setup.ps1'
+[19.946s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/_local_setup_util_ps1.py'
+[19.951s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/setup.ps1'
+[19.955s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/local_setup.sh'
+[19.956s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/_local_setup_util_sh.py'
+[19.958s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/setup.sh'
+[19.961s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/local_setup.bash'
+[19.963s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/setup.bash'
+[19.966s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/local_setup.zsh'
+[19.968s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andre/Desktop/Git/ROS_estudo/Modulo_basico/Action/install/setup.zsh'
