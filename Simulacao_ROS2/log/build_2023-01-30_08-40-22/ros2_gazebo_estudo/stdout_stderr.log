@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/requires.txt
+writing top-level names to ../../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/top_level.txt
+reading manifest file '../../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ros2_gazebo_estudo/just_sub.py -> /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/ros2_gazebo_estudo/build/lib/ros2_gazebo_estudo
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/ros2_gazebo_estudo/build/lib/ros2_gazebo_estudo/just_sub.py -> /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo/lib/python3.10/site-packages/ros2_gazebo_estudo
+byte-compiling /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo/lib/python3.10/site-packages/ros2_gazebo_estudo/just_sub.py to just_sub.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo/lib/python3.10/site-packages/ros2_gazebo_estudo-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info to /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo/lib/python3.10/site-packages/ros2_gazebo_estudo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sub_cmd_vel script to /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo/lib/ros2_gazebo_estudo
+writing list of installed files to '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/ros2_gazebo_estudo/install.log'

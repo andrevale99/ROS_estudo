@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info
+writing ../../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/requires.txt
+writing top-level names to ../../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/top_level.txt
+writing manifest file '../../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/SOURCES.txt'
+reading manifest file '../../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/ros2_gazebo_estudo/build
+creating /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/ros2_gazebo_estudo/build/lib
+creating /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/ros2_gazebo_estudo/build/lib/ros2_gazebo_estudo
+copying ros2_gazebo_estudo/__init__.py -> /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/ros2_gazebo_estudo/build/lib/ros2_gazebo_estudo
+copying ros2_gazebo_estudo/just_sub.py -> /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/ros2_gazebo_estudo/build/lib/ros2_gazebo_estudo
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo/lib/python3.10/site-packages/ros2_gazebo_estudo
+copying /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/ros2_gazebo_estudo/build/lib/ros2_gazebo_estudo/__init__.py -> /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo/lib/python3.10/site-packages/ros2_gazebo_estudo
+copying /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/ros2_gazebo_estudo/build/lib/ros2_gazebo_estudo/just_sub.py -> /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo/lib/python3.10/site-packages/ros2_gazebo_estudo
+byte-compiling /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo/lib/python3.10/site-packages/ros2_gazebo_estudo/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo/lib/python3.10/site-packages/ros2_gazebo_estudo/just_sub.py to just_sub.cpython-310.pyc
+running install_data
+creating /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo/share/ament_index
+creating /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo/share/ament_index/resource_index
+creating /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo/share/ament_index/resource_index/packages
+copying resource/ros2_gazebo_estudo -> /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo/share/ament_index/resource_index/packages
+copying package.xml -> /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo/share/ros2_gazebo_estudo
+running install_egg_info
+Copying ../../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info to /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo/lib/python3.10/site-packages/ros2_gazebo_estudo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sub_cmd_vel script to /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo/lib/ros2_gazebo_estudo
+writing list of installed files to '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/ros2_gazebo_estudo/install.log'
