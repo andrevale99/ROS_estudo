@@ -1,8 +1,9 @@
 import rclpy
 from rclpy.node import Node
+
 from geometry_msgs.msg import Twist
 
-from std_msgs.msg import String
+from time import sleep
 
 
 class MinimalPublisher(Node):
@@ -11,12 +12,17 @@ class MinimalPublisher(Node):
         super().__init__('pub_cmd_vel')
         self.publisher_ = self.create_publisher(Twist, 'cmd_vel', 10)
         self.timer = self.create_timer(1, self.set_cmd_vel)
+        self.angular = 0
 
     def set_cmd_vel(self):
         twist = Twist()
-        twist.linear.x = float(2)
-        self.publisher_.publish(twist)
+        twist.angular.z = float(self.angular)
+        
+        self.get_logger().info(f'i value: {self.angular}')
 
+        self.angular += 0.1
+        self.publisher_.publish(twist)
+ 
 
 def main(args=None):
     rclpy.init(args=args)

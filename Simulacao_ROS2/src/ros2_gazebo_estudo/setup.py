@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'sub_cmd_vel = ros2_gazebo_estudo.just_sub:main',
+            'sub_cmd_vel = ros2_gazebo_estudo.just_pub:main',
         ],
     },
 )
