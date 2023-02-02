@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces_to_gazebo/srv/RqtLaserScan.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces_to_gazebo {
+  module srv {
+    struct RqtLaserScan_Request {
+      int32 who;
+    };
+    struct RqtLaserScan_Response {
+      float range;
+    };
+  };
+};

@@ -1,3 +1,4 @@
 [console_scripts]
-sub_cmd_vel = ros2_gazebo_estudo.just_pub:main
+LaserScan_service = ros2_gazebo_estudo.laser_scan_serv:main
+pub_cmd_vel = ros2_gazebo_estudo.cmd_vel_clt:main
 

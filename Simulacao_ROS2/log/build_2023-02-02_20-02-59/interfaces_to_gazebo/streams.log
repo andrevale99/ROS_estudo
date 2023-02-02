@@ -1,0 +1,42 @@
+[0.047s] Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo': CMAKE_PREFIX_PATH=/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo:/opt/ros/humble /usr/bin/cmake /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/interfaces_to_gazebo -DCMAKE_INSTALL_PREFIX=/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/interfaces_to_gazebo
+[0.183s] -- The C compiler identification is GNU 11.3.0
+[0.354s] -- The CXX compiler identification is GNU 11.3.0
+[0.371s] -- Detecting C compiler ABI info
+[0.510s] -- Detecting C compiler ABI info - done
+[0.532s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.533s] -- Detecting C compile features
+[0.534s] -- Detecting C compile features - done
+[0.540s] -- Detecting CXX compiler ABI info
+[0.716s] -- Detecting CXX compiler ABI info - done
+[0.737s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.737s] -- Detecting CXX compile features
+[0.739s] -- Detecting CXX compile features - done
+[0.744s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.171s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.426s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.737s] -- Added test 'lint_cmake' to check CMake code style
+[1.764s] -- Added test 'xmllint' to check XML markup files
+[1.767s] -- Configuring done
+[1.775s] -- Generating done
+[1.778s] -- Build files have been written to: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo
+[1.793s] Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo:/opt/ros/humble /usr/bin/cmake /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/interfaces_to_gazebo -DCMAKE_INSTALL_PREFIX=/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/interfaces_to_gazebo
+[1.794s] Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo': CMAKE_PREFIX_PATH=/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo:/opt/ros/humble /usr/bin/cmake --build /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo -- -j4 -l4
+[1.880s] Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo:/opt/ros/humble /usr/bin/cmake --build /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo -- -j4 -l4
+[1.946s] Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo': CMAKE_PREFIX_PATH=/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo:/opt/ros/humble /usr/bin/cmake --install /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo
+[1.960s] -- Install configuration: ""
+[1.960s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/interfaces_to_gazebo/share/ament_index/resource_index/package_run_dependencies/interfaces_to_gazebo
+[1.962s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/interfaces_to_gazebo/share/ament_index/resource_index/parent_prefix_path/interfaces_to_gazebo
+[1.963s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/interfaces_to_gazebo/share/interfaces_to_gazebo/environment/ament_prefix_path.sh
+[1.963s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/interfaces_to_gazebo/share/interfaces_to_gazebo/environment/ament_prefix_path.dsv
+[1.964s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/interfaces_to_gazebo/share/interfaces_to_gazebo/environment/path.sh
+[1.965s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/interfaces_to_gazebo/share/interfaces_to_gazebo/environment/path.dsv
+[1.965s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/interfaces_to_gazebo/share/interfaces_to_gazebo/local_setup.bash
+[1.966s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/interfaces_to_gazebo/share/interfaces_to_gazebo/local_setup.sh
+[1.966s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/interfaces_to_gazebo/share/interfaces_to_gazebo/local_setup.zsh
+[1.967s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/interfaces_to_gazebo/share/interfaces_to_gazebo/local_setup.dsv
+[1.969s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/interfaces_to_gazebo/share/interfaces_to_gazebo/package.dsv
+[1.969s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/interfaces_to_gazebo/share/ament_index/resource_index/packages/interfaces_to_gazebo
+[1.970s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/interfaces_to_gazeboConfig.cmake
+[1.971s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/interfaces_to_gazeboConfig-version.cmake
+[1.971s] -- Installing: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/interfaces_to_gazebo/share/interfaces_to_gazebo/package.xml
+[1.975s] Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo:/opt/ros/humble /usr/bin/cmake --install /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo

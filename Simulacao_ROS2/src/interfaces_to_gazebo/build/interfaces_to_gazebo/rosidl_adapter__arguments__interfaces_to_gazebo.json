@@ -1,0 +1,6 @@
+{
+  "package_name": "interfaces_to_gazebo",
+  "non_idl_tuples": [
+    "/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/interfaces_to_gazebo:srv/RqtLaserScan.srv"
+  ]
+}

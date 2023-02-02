@@ -1,0 +1,9 @@
+/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo/CMakeFiles/uninstall.dir
+/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo/CMakeFiles/interfaces_to_gazebo_uninstall.dir
+/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo/CMakeFiles/test.dir
+/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo/CMakeFiles/edit_cache.dir
+/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo/CMakeFiles/rebuild_cache.dir
+/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo/CMakeFiles/list_install_components.dir
+/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo/CMakeFiles/install.dir
+/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo/CMakeFiles/install/local.dir
+/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo/CMakeFiles/install/strip.dir
