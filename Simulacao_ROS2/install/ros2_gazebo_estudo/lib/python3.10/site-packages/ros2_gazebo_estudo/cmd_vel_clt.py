@@ -5,6 +5,8 @@ from geometry_msgs.msg import Twist
 
 from interfaces_to_gazebo.srv import RqtLaserScan
 
+from time import sleep
+
 
 class CMD_VEL_publisher(Node):
 
@@ -23,24 +25,31 @@ class CMD_VEL_publisher(Node):
         self.twist = Twist()
         self.reset_twist()
 
-    def reset_twist(self):
-        self.twist.linear.x = .0
-        self.twist.linear.y = .0
-        self.twist.linear.z = .0
+        self.future = 1
+        self.req.who = 1
 
-        self.twist.angular.x = .0
-        self.twist.angular.y = .0
-        self.twist.angular.z = .0
+    def reset_twist(self):
+        if self.future.result().range > 0.75:
+             self.get_logger().info(f'TESTE')
+
         self.publisher_.publish(self.twist)
 
     def set_cmd_vel(self):
-        self.get_logger().info(f'i value: {self.twist.linear.x}')
+        self.twist.linear.x =0.
+        self.twist.linear.y =0.
+        self.twist.linear.z =0.
+
+        self.twist.angular.x = 0.
+        self.twist.angular.y = 0.
+        self.twist.angular.z = 0.
         self.publisher_.publish(self.twist)
 
     def LaserScan_request(self):
         self.req.who = 1
         self.future = self.client.call_async(self.req)
         rclpy.spin_until_future_complete(self, self.future)
+
+        self.get_logger().info(f'Situation: {self.future.result().range}')
         
         return self.future.result()
  
@@ -50,8 +59,7 @@ def main(args=None):
 
     cmd_vel_pub = CMD_VEL_publisher()
 
-    response = cmd_vel_pub.LaserScan_request()
-    cmd_vel_pub.get_logger().info(f"Response: {response.range}")
+    response = cmd_vel_pub.LaserScan_request()  
 
     rclpy.spin(cmd_vel_pub)
 

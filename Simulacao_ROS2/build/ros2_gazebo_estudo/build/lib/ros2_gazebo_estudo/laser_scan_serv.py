@@ -22,7 +22,6 @@ class Tb3(Node):
 
     def get_scan_sub(self, msg):
         self.laser = msg
-        self.get_logger().info(f'Type: {self.laser.ranges[0]}')
 
     def scan_callback(self, request, response):
         if request.who == 1:

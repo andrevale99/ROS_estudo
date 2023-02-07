@@ -1,0 +1,187 @@
+[0.988s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.988s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f638a217040>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f638a97c940>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f638a97c940>>)
+[1.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.107s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces_to_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces_to_gazebo) by extension 'ignore'
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces_to_gazebo) by extension 'ignore_ament_install'
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces_to_gazebo) by extensions ['colcon_pkg']
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces_to_gazebo) by extension 'colcon_pkg'
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces_to_gazebo) by extensions ['colcon_meta']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces_to_gazebo) by extension 'colcon_meta'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces_to_gazebo) by extensions ['ros']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces_to_gazebo) by extension 'ros'
+[1.150s] DEBUG:colcon.colcon_core.package_identification:Package 'interfaces_to_gazebo' with type 'ros.ament_cmake' and name 'interfaces_to_gazebo'
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_gazebo_estudo) by extensions ['ignore', 'ignore_ament_install']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_gazebo_estudo) by extension 'ignore'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_gazebo_estudo) by extension 'ignore_ament_install'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_gazebo_estudo) by extensions ['colcon_pkg']
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_gazebo_estudo) by extension 'colcon_pkg'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_gazebo_estudo) by extensions ['colcon_meta']
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_gazebo_estudo) by extension 'colcon_meta'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_gazebo_estudo) by extensions ['ros']
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_gazebo_estudo) by extension 'ros'
+[1.154s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_gazebo_estudo' with type 'ros.ament_python' and name 'ros2_gazebo_estudo'
+[1.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.231s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install
+[1.233s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/interfaces_to_gazebo/install
+[1.235s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install
+[1.240s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 393 installed packages in /opt/ros/humble
+[1.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.493s] Level 5:colcon.colcon_core.verb:set package 'interfaces_to_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.493s] Level 5:colcon.colcon_core.verb:set package 'interfaces_to_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.493s] Level 5:colcon.colcon_core.verb:set package 'interfaces_to_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.493s] Level 5:colcon.colcon_core.verb:set package 'interfaces_to_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'interfaces_to_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'interfaces_to_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'interfaces_to_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'interfaces_to_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'interfaces_to_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.494s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces_to_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/interfaces_to_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo', 'merge_install': False, 'path': '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/interfaces_to_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.497s] Level 5:colcon.colcon_core.verb:set package 'ros2_gazebo_estudo' build argument 'cmake_args' from command line to 'None'
+[1.497s] Level 5:colcon.colcon_core.verb:set package 'ros2_gazebo_estudo' build argument 'cmake_target' from command line to 'None'
+[1.497s] Level 5:colcon.colcon_core.verb:set package 'ros2_gazebo_estudo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.497s] Level 5:colcon.colcon_core.verb:set package 'ros2_gazebo_estudo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.497s] Level 5:colcon.colcon_core.verb:set package 'ros2_gazebo_estudo' build argument 'cmake_clean_first' from command line to 'False'
+[1.497s] Level 5:colcon.colcon_core.verb:set package 'ros2_gazebo_estudo' build argument 'cmake_force_configure' from command line to 'False'
+[1.497s] Level 5:colcon.colcon_core.verb:set package 'ros2_gazebo_estudo' build argument 'ament_cmake_args' from command line to 'None'
+[1.497s] Level 5:colcon.colcon_core.verb:set package 'ros2_gazebo_estudo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.497s] Level 5:colcon.colcon_core.verb:set package 'ros2_gazebo_estudo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.498s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_gazebo_estudo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo', 'merge_install': False, 'path': '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/ros2_gazebo_estudo', 'symlink_install': False, 'test_result_base': None}
+[1.499s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.507s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.508s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/interfaces_to_gazebo' with build type 'ament_cmake'
+[1.508s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/interfaces_to_gazebo'
+[1.519s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.520s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.520s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.543s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/ros2_gazebo_estudo' with build type 'ament_python'
+[1.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_gazebo_estudo', 'ament_prefix_path')
+[1.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/share/ros2_gazebo_estudo/hook/ament_prefix_path.ps1'
+[1.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/share/ros2_gazebo_estudo/hook/ament_prefix_path.dsv'
+[1.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/share/ros2_gazebo_estudo/hook/ament_prefix_path.sh'
+[1.555s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.555s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/interfaces_to_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo:/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo:/opt/ros/humble /usr/bin/cmake --build /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/interfaces_to_gazebo -- -j4 -l4
+[3.192s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/ros2_gazebo_estudo'
+[3.198s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.199s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/interfaces_to_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo:/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo:/opt/ros/humble /usr/bin/cmake --build /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/interfaces_to_gazebo -- -j4 -l4
+[4.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/interfaces_to_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo:/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo:/opt/ros/humble /usr/bin/cmake --install /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/interfaces_to_gazebo
+[4.415s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces_to_gazebo)
+[4.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/interfaces_to_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo:/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/install/ros2_gazebo_estudo:/opt/ros/humble /usr/bin/cmake --install /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/interfaces_to_gazebo
+[4.458s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo' for CMake module files
+[4.461s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo' for CMake config files
+[4.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_to_gazebo', 'cmake_prefix_path')
+[4.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/hook/cmake_prefix_path.ps1'
+[4.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/hook/cmake_prefix_path.dsv'
+[4.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/hook/cmake_prefix_path.sh'
+[4.492s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/lib'
+[4.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_to_gazebo', 'ld_library_path_lib')
+[4.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/hook/ld_library_path_lib.ps1'
+[4.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/hook/ld_library_path_lib.dsv'
+[4.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/hook/ld_library_path_lib.sh'
+[4.507s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/bin'
+[4.507s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/lib/pkgconfig/interfaces_to_gazebo.pc'
+[4.508s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/lib/python3.10/site-packages'
+[4.509s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/bin'
+[4.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/package.ps1'
+[4.518s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/package.dsv'
+[4.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/package.sh'
+[4.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/package.bash'
+[4.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/package.zsh'
+[4.532s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/colcon-core/packages/interfaces_to_gazebo)
+[4.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces_to_gazebo)
+[4.823s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo' for CMake module files
+[4.826s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo' for CMake config files
+[4.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_to_gazebo', 'cmake_prefix_path')
+[4.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/hook/cmake_prefix_path.ps1'
+[4.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/hook/cmake_prefix_path.dsv'
+[4.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/hook/cmake_prefix_path.sh'
+[4.857s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/lib'
+[4.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_to_gazebo', 'ld_library_path_lib')
+[4.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/hook/ld_library_path_lib.ps1'
+[4.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/hook/ld_library_path_lib.dsv'
+[4.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/hook/ld_library_path_lib.sh'
+[4.889s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/bin'
+[4.889s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/lib/pkgconfig/interfaces_to_gazebo.pc'
+[4.890s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/lib/python3.10/site-packages'
+[4.891s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/bin'
+[4.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/package.ps1'
+[4.913s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/package.dsv'
+[4.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/package.sh'
+[4.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/package.bash'
+[4.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/package.zsh'
+[4.925s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/colcon-core/packages/interfaces_to_gazebo)
+[4.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/ros2_gazebo_estudo': PYTHONPATH=/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/prefix_override:/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2_gazebo_estudo build --build-base /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/build install --record /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/install.log --single-version-externally-managed
+[6.119s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo' for CMake module files
+[6.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/ros2_gazebo_estudo' returned '0': PYTHONPATH=/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/prefix_override:/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2_gazebo_estudo build --build-base /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/build install --record /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/install.log --single-version-externally-managed
+[6.123s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo' for CMake config files
+[6.126s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/lib'
+[6.127s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/bin'
+[6.127s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/lib/pkgconfig/ros2_gazebo_estudo.pc'
+[6.128s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/lib/python3.10/site-packages'
+[6.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_gazebo_estudo', 'pythonpath')
+[6.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/share/ros2_gazebo_estudo/hook/pythonpath.ps1'
+[6.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/share/ros2_gazebo_estudo/hook/pythonpath.dsv'
+[6.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/share/ros2_gazebo_estudo/hook/pythonpath.sh'
+[6.145s] Level 1:colcon.colcon_core.environment:checking '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/bin'
+[6.145s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_gazebo_estudo)
+[6.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/share/ros2_gazebo_estudo/package.ps1'
+[6.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/share/ros2_gazebo_estudo/package.dsv'
+[6.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/share/ros2_gazebo_estudo/package.sh'
+[6.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/share/ros2_gazebo_estudo/package.bash'
+[6.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/share/ros2_gazebo_estudo/package.zsh'
+[6.171s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/share/colcon-core/packages/ros2_gazebo_estudo)
+[6.176s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.179s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.180s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.180s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.208s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.209s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.209s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.273s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.280s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/local_setup.ps1'
+[6.283s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/_local_setup_util_ps1.py'
+[6.299s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/setup.ps1'
+[6.310s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/local_setup.sh'
+[6.311s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/_local_setup_util_sh.py'
+[6.318s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/setup.sh'
+[6.328s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/local_setup.bash'
+[6.330s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/setup.bash'
+[6.337s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/local_setup.zsh'
+[6.338s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/setup.zsh'

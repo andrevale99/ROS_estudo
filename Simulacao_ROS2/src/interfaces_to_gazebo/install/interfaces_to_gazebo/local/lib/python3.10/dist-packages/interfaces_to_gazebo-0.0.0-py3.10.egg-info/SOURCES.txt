@@ -4,3 +4,5 @@ interfaces_to_gazebo.egg-info/PKG-INFO
 interfaces_to_gazebo.egg-info/SOURCES.txt
 interfaces_to_gazebo.egg-info/dependency_links.txt
 interfaces_to_gazebo.egg-info/top_level.txt
+interfaces_to_gazebo/srv/__init__.py
+interfaces_to_gazebo/srv/_rqt_laser_scan.py

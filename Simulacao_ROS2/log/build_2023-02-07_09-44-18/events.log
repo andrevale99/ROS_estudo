@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.003700] (-) JobUnselected: {'identifier': 'interfaces_to_gazebo'}
+[0.003958] (-) JobUnselected: {'identifier': 'ros2_gazebo_estudo'}
+[0.009761] (-) EventReactorShutdown: {}

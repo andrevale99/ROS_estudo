@@ -1,0 +1,299 @@
+[0.000000] (-) TimerEvent: {}
+[0.000356] (interfaces_to_gazebo) JobQueued: {'identifier': 'interfaces_to_gazebo', 'dependencies': OrderedDict()}
+[0.000451] (ros2_gazebo_estudo) JobQueued: {'identifier': 'ros2_gazebo_estudo', 'dependencies': OrderedDict()}
+[0.000526] (interfaces_to_gazebo) JobStarted: {'identifier': 'interfaces_to_gazebo'}
+[0.045733] (ros2_gazebo_estudo) JobStarted: {'identifier': 'ros2_gazebo_estudo'}
+[0.102557] (-) TimerEvent: {}
+[0.122056] (interfaces_to_gazebo) JobProgress: {'identifier': 'interfaces_to_gazebo', 'progress': 'cmake'}
+[0.125490] (interfaces_to_gazebo) JobProgress: {'identifier': 'interfaces_to_gazebo', 'progress': 'build'}
+[0.129316] (interfaces_to_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/interfaces_to_gazebo', '--', '-j4', '-l4'], 'cwd': '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/interfaces_to_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'andre'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/andre'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2'), ('TERM_PROGRAM_VERSION', '1.75.0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1785'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andre'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'andre'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/andreNOTE:@/tmp/.ICE-unix/1743,unix/andreNOTE:/tmp/.ICE-unix/1743'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3526ea2f_64ea_4820_b59b_ceda59b0ccbf'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0UA1Z1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bdd12e84dd.sock'), ('GNOME_TERMINAL_SERVICE', ':1.155'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/interfaces_to_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.202683] (-) TimerEvent: {}
+[0.304581] (-) TimerEvent: {}
+[0.405120] (-) TimerEvent: {}
+[0.505978] (-) TimerEvent: {}
+[0.607376] (-) TimerEvent: {}
+[0.707843] (-) TimerEvent: {}
+[0.813113] (-) TimerEvent: {}
+[0.918822] (-) TimerEvent: {}
+[1.019324] (-) TimerEvent: {}
+[1.119927] (-) TimerEvent: {}
+[1.220647] (-) TimerEvent: {}
+[1.321993] (-) TimerEvent: {}
+[1.422482] (-) TimerEvent: {}
+[1.522970] (-) TimerEvent: {}
+[1.624277] (-) TimerEvent: {}
+[1.662819] (interfaces_to_gazebo) StdoutLine: {'line': b'[  3%] Built target interfaces_to_gazebo__cpp\n'}
+[1.663273] (interfaces_to_gazebo) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_interfaces_to_gazebo\n'}
+[1.665047] (interfaces_to_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces_to_gazebo__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.723887] (-) TimerEvent: {}
+[1.825427] (-) TimerEvent: {}
+[1.852818] (interfaces_to_gazebo) StdoutLine: {'line': b'[ 12%] Built target interfaces_to_gazebo__rosidl_typesupport_fastrtps_cpp\n'}
+[1.925539] (-) TimerEvent: {}
+[2.025999] (-) TimerEvent: {}
+[2.126793] (-) TimerEvent: {}
+[2.228191] (-) TimerEvent: {}
+[2.329303] (-) TimerEvent: {}
+[2.413363] (interfaces_to_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces_to_gazebo__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.429593] (-) TimerEvent: {}
+[2.530604] (-) TimerEvent: {}
+[2.631067] (-) TimerEvent: {}
+[2.637014] (interfaces_to_gazebo) StdoutLine: {'line': b'[ 22%] Built target interfaces_to_gazebo__rosidl_typesupport_introspection_cpp\n'}
+[2.731163] (-) TimerEvent: {}
+[2.833364] (-) TimerEvent: {}
+[2.933813] (-) TimerEvent: {}
+[3.034358] (-) TimerEvent: {}
+[3.135129] (-) TimerEvent: {}
+[3.235664] (-) TimerEvent: {}
+[3.336363] (-) TimerEvent: {}
+[3.437568] (-) TimerEvent: {}
+[3.538577] (-) TimerEvent: {}
+[3.639147] (-) TimerEvent: {}
+[3.737354] (ros2_gazebo_estudo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/ros2_gazebo_estudo', 'build', '--build-base', '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/build', 'install', '--record', '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/install.log', '--single-version-externally-managed'], 'cwd': '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/ros2_gazebo_estudo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'andre', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/andre', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2', 'TERM_PROGRAM_VERSION': '1.75.0', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'pt_BR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'LC_CTYPE': 'pt_BR.UTF-8', 'SYSTEMD_EXEC_PID': '1785', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'andre', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'andre', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/andreNOTE:@/tmp/.ICE-unix/1743,unix/andreNOTE:/tmp/.ICE-unix/1743', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3526ea2f_64ea_4820_b59b_ceda59b0ccbf', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0UA1Z1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-bdd12e84dd.sock', 'GNOME_TERMINAL_SERVICE': ':1.155', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/prefix_override:/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.746666] (-) TimerEvent: {}
+[3.847557] (-) TimerEvent: {}
+[3.949128] (-) TimerEvent: {}
+[4.051220] (-) TimerEvent: {}
+[4.156628] (-) TimerEvent: {}
+[4.257203] (-) TimerEvent: {}
+[4.357866] (-) TimerEvent: {}
+[4.458662] (-) TimerEvent: {}
+[4.559836] (-) TimerEvent: {}
+[4.660755] (-) TimerEvent: {}
+[4.726592] (interfaces_to_gazebo) StdoutLine: {'line': b'running egg_info\n'}
+[4.732355] (interfaces_to_gazebo) StdoutLine: {'line': b'writing interfaces_to_gazebo.egg-info/PKG-INFO\n'}
+[4.733060] (interfaces_to_gazebo) StdoutLine: {'line': b'writing dependency_links to interfaces_to_gazebo.egg-info/dependency_links.txt\n'}
+[4.733370] (interfaces_to_gazebo) StdoutLine: {'line': b'writing top-level names to interfaces_to_gazebo.egg-info/top_level.txt\n'}
+[4.753234] (interfaces_to_gazebo) StdoutLine: {'line': b"reading manifest file 'interfaces_to_gazebo.egg-info/SOURCES.txt'\n"}
+[4.760904] (-) TimerEvent: {}
+[4.780286] (interfaces_to_gazebo) StdoutLine: {'line': b"writing manifest file 'interfaces_to_gazebo.egg-info/SOURCES.txt'\n"}
+[4.861001] (-) TimerEvent: {}
+[4.962018] (-) TimerEvent: {}
+[4.987632] (interfaces_to_gazebo) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_build_interfaces_to_gazebo_egg\n'}
+[5.062130] (-) TimerEvent: {}
+[5.162695] (-) TimerEvent: {}
+[5.264176] (-) TimerEvent: {}
+[5.344212] (interfaces_to_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces_to_gazebo__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.366140] (-) TimerEvent: {}
+[5.427336] (ros2_gazebo_estudo) StdoutLine: {'line': b'running egg_info\n'}
+[5.434095] (ros2_gazebo_estudo) StdoutLine: {'line': b'writing ../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/PKG-INFO\n'}
+[5.449702] (ros2_gazebo_estudo) StdoutLine: {'line': b'writing dependency_links to ../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/dependency_links.txt\n'}
+[5.451868] (ros2_gazebo_estudo) StdoutLine: {'line': b'writing entry points to ../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/entry_points.txt\n'}
+[5.453425] (ros2_gazebo_estudo) StdoutLine: {'line': b'writing requirements to ../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/requires.txt\n'}
+[5.456943] (ros2_gazebo_estudo) StdoutLine: {'line': b'writing top-level names to ../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/top_level.txt\n'}
+[5.461337] (interfaces_to_gazebo) StdoutLine: {'line': b'[ 32%] Built target interfaces_to_gazebo__rosidl_typesupport_cpp\n'}
+[5.469544] (-) TimerEvent: {}
+[5.472547] (ros2_gazebo_estudo) StdoutLine: {'line': b"reading manifest file '../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/SOURCES.txt'\n"}
+[5.499498] (ros2_gazebo_estudo) StdoutLine: {'line': b"writing manifest file '../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/SOURCES.txt'\n"}
+[5.501977] (ros2_gazebo_estudo) StdoutLine: {'line': b'running build\n'}
+[5.502614] (ros2_gazebo_estudo) StdoutLine: {'line': b'running build_py\n'}
+[5.503232] (ros2_gazebo_estudo) StdoutLine: {'line': b'copying ros2_gazebo_estudo/cmd_vel_clt.py -> /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/build/lib/ros2_gazebo_estudo\n'}
+[5.569812] (-) TimerEvent: {}
+[5.572143] (ros2_gazebo_estudo) StdoutLine: {'line': b'running install\n'}
+[5.598288] (ros2_gazebo_estudo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.598714] (ros2_gazebo_estudo) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.599390] (ros2_gazebo_estudo) StdoutLine: {'line': b'running install_lib\n'}
+[5.608575] (ros2_gazebo_estudo) StdoutLine: {'line': b'copying /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/build/lib/ros2_gazebo_estudo/cmd_vel_clt.py -> /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/lib/python3.10/site-packages/ros2_gazebo_estudo\n'}
+[5.611667] (ros2_gazebo_estudo) StdoutLine: {'line': b'byte-compiling /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/lib/python3.10/site-packages/ros2_gazebo_estudo/cmd_vel_clt.py to cmd_vel_clt.cpython-310.pyc\n'}
+[5.622581] (ros2_gazebo_estudo) StdoutLine: {'line': b'running install_data\n'}
+[5.624313] (ros2_gazebo_estudo) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.636194] (ros2_gazebo_estudo) StdoutLine: {'line': b"removing '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/lib/python3.10/site-packages/ros2_gazebo_estudo-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.637357] (ros2_gazebo_estudo) StdoutLine: {'line': b'Copying ../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info to /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/lib/python3.10/site-packages/ros2_gazebo_estudo-0.0.0-py3.10.egg-info\n'}
+[5.668331] (ros2_gazebo_estudo) StdoutLine: {'line': b'running install_scripts\n'}
+[5.670036] (-) TimerEvent: {}
+[5.776653] (-) TimerEvent: {}
+[5.813090] (ros2_gazebo_estudo) StdoutLine: {'line': b'Installing CmdVel_client script to /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/lib/ros2_gazebo_estudo\n'}
+[5.814303] (ros2_gazebo_estudo) StdoutLine: {'line': b'Installing LaserScan_service script to /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/lib/ros2_gazebo_estudo\n'}
+[5.816055] (ros2_gazebo_estudo) StdoutLine: {'line': b"writing list of installed files to '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/install.log'\n"}
+[5.876796] (-) TimerEvent: {}
+[5.950742] (ros2_gazebo_estudo) CommandEnded: {'returncode': 0}
+[5.977218] (-) TimerEvent: {}
+[6.078288] (-) TimerEvent: {}
+[6.128971] (interfaces_to_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces_to_gazebo__rosidl_generator_c\x1b[0m\n'}
+[6.173106] (interfaces_to_gazebo) StdoutLine: {'line': b'[ 41%] Built target interfaces_to_gazebo__rosidl_generator_c\n'}
+[6.179115] (-) TimerEvent: {}
+[6.235881] (ros2_gazebo_estudo) JobEnded: {'identifier': 'ros2_gazebo_estudo', 'rc': 0}
+[6.280349] (-) TimerEvent: {}
+[6.375359] (interfaces_to_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces_to_gazebo__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.380819] (-) TimerEvent: {}
+[6.434853] (interfaces_to_gazebo) StdoutLine: {'line': b'[ 51%] Built target interfaces_to_gazebo__rosidl_typesupport_fastrtps_c\n'}
+[6.480894] (-) TimerEvent: {}
+[6.581450] (-) TimerEvent: {}
+[6.682720] (-) TimerEvent: {}
+[6.747346] (interfaces_to_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces_to_gazebo__rosidl_typesupport_c\x1b[0m\n'}
+[6.782882] (-) TimerEvent: {}
+[6.795198] (interfaces_to_gazebo) StdoutLine: {'line': b'[ 61%] Built target interfaces_to_gazebo__rosidl_typesupport_c\n'}
+[6.883229] (-) TimerEvent: {}
+[6.952645] (interfaces_to_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces_to_gazebo__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.983585] (-) TimerEvent: {}
+[7.021726] (interfaces_to_gazebo) StdoutLine: {'line': b'[ 70%] Built target interfaces_to_gazebo__rosidl_typesupport_introspection_c\n'}
+[7.083808] (-) TimerEvent: {}
+[7.184524] (-) TimerEvent: {}
+[7.197803] (interfaces_to_gazebo) StdoutLine: {'line': b'[ 70%] Built target interfaces_to_gazebo\n'}
+[7.284634] (-) TimerEvent: {}
+[7.386426] (-) TimerEvent: {}
+[7.453064] (interfaces_to_gazebo) StdoutLine: {'line': b'[ 74%] Built target interfaces_to_gazebo__py\n'}
+[7.486563] (-) TimerEvent: {}
+[7.587448] (-) TimerEvent: {}
+[7.629993] (interfaces_to_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces_to_gazebo__rosidl_generator_py\x1b[0m\n'}
+[7.683094] (interfaces_to_gazebo) StdoutLine: {'line': b'[ 80%] Built target interfaces_to_gazebo__rosidl_generator_py\n'}
+[7.687424] (-) TimerEvent: {}
+[7.787948] (-) TimerEvent: {}
+[7.873709] (interfaces_to_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces_to_gazebo__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.888079] (-) TimerEvent: {}
+[7.932141] (interfaces_to_gazebo) StdoutLine: {'line': b'[ 87%] Built target interfaces_to_gazebo__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.988249] (-) TimerEvent: {}
+[8.090022] (-) TimerEvent: {}
+[8.124412] (interfaces_to_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces_to_gazebo__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[8.178708] (interfaces_to_gazebo) StdoutLine: {'line': b'[ 93%] Built target interfaces_to_gazebo__rosidl_typesupport_c__pyext\n'}
+[8.190320] (-) TimerEvent: {}
+[8.291661] (-) TimerEvent: {}
+[8.394907] (-) TimerEvent: {}
+[8.428597] (interfaces_to_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces_to_gazebo__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.483531] (interfaces_to_gazebo) StdoutLine: {'line': b'[100%] Built target interfaces_to_gazebo__rosidl_typesupport_introspection_c__pyext\n'}
+[8.495299] (-) TimerEvent: {}
+[8.528185] (interfaces_to_gazebo) CommandEnded: {'returncode': 0}
+[8.595659] (-) TimerEvent: {}
+[8.700751] (-) TimerEvent: {}
+[8.779797] (interfaces_to_gazebo) JobProgress: {'identifier': 'interfaces_to_gazebo', 'progress': 'install'}
+[8.800911] (-) TimerEvent: {}
+[8.811602] (interfaces_to_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/interfaces_to_gazebo'], 'cwd': '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/interfaces_to_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'andre'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/andre'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2'), ('TERM_PROGRAM_VERSION', '1.75.0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1785'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andre'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'andre'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/andreNOTE:@/tmp/.ICE-unix/1743,unix/andreNOTE:/tmp/.ICE-unix/1743'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3526ea2f_64ea_4820_b59b_ceda59b0ccbf'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0UA1Z1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bdd12e84dd.sock'), ('GNOME_TERMINAL_SERVICE', ':1.155'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/interfaces_to_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.901106] (-) TimerEvent: {}
+[8.959674] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.960590] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/ament_index/resource_index/rosidl_interfaces/interfaces_to_gazebo\n'}
+[8.961484] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo\n'}
+[8.995351] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv\n'}
+[9.001264] (-) TimerEvent: {}
+[9.089579] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/detail\n'}
+[9.101616] (-) TimerEvent: {}
+[9.126674] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/detail/rqt_laser_scan__functions.h\n'}
+[9.127201] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/detail/rqt_laser_scan__type_support.h\n'}
+[9.127515] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/detail/rqt_laser_scan__functions.c\n'}
+[9.127784] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/detail/rqt_laser_scan__struct.h\n'}
+[9.128026] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/rqt_laser_scan.h\n'}
+[9.128252] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/msg\n'}
+[9.174370] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.175478] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/environment/library_path.sh\n'}
+[9.175892] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/environment/library_path.dsv\n'}
+[9.201874] (-) TimerEvent: {}
+[9.302691] (-) TimerEvent: {}
+[9.337768] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/lib/libinterfaces_to_gazebo__rosidl_generator_c.so\n'}
+[9.338515] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo\n'}
+[9.367725] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv\n'}
+[9.371382] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/detail\n'}
+[9.373437] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/detail/rqt_laser_scan__rosidl_typesupport_fastrtps_c.h\n'}
+[9.373822] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/msg\n'}
+[9.374042] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.397664] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/lib/libinterfaces_to_gazebo__rosidl_typesupport_fastrtps_c.so\n'}
+[9.402762] (-) TimerEvent: {}
+[9.404239] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo\n'}
+[9.405147] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv\n'}
+[9.405621] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/rqt_laser_scan.hpp\n'}
+[9.406081] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/detail\n'}
+[9.406616] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/detail/rqt_laser_scan__struct.hpp\n'}
+[9.406945] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/detail/rqt_laser_scan__builder.hpp\n'}
+[9.407234] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/detail/rqt_laser_scan__traits.hpp\n'}
+[9.407556] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo\n'}
+[9.427017] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv\n'}
+[9.437087] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/detail\n'}
+[9.437966] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/detail/rqt_laser_scan__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.460442] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/detail/dds_fastrtps\n'}
+[9.461089] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/msg\n'}
+[9.461368] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.497629] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/lib/libinterfaces_to_gazebo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.498327] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo\n'}
+[9.498661] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv\n'}
+[9.502877] (-) TimerEvent: {}
+[9.550443] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/detail\n'}
+[9.552294] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/detail/rqt_laser_scan__type_support.c\n'}
+[9.552977] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/detail/rqt_laser_scan__rosidl_typesupport_introspection_c.h\n'}
+[9.553301] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/msg\n'}
+[9.553550] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.553895] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/lib/libinterfaces_to_gazebo__rosidl_typesupport_introspection_c.so\n'}
+[9.554481] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/lib/libinterfaces_to_gazebo__rosidl_typesupport_c.so\n'}
+[9.554950] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo\n'}
+[9.570434] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv\n'}
+[9.571742] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/detail\n'}
+[9.572263] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/detail/rqt_laser_scan__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.572575] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/include/interfaces_to_gazebo/interfaces_to_gazebo/srv/detail/rqt_laser_scan__type_support.cpp\n'}
+[9.572962] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/lib/libinterfaces_to_gazebo__rosidl_typesupport_introspection_cpp.so\n'}
+[9.573569] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/lib/libinterfaces_to_gazebo__rosidl_typesupport_cpp.so\n'}
+[9.574044] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/environment/pythonpath.sh\n'}
+[9.574380] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/environment/pythonpath.dsv\n'}
+[9.574615] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo-0.0.0-py3.10.egg-info\n'}
+[9.574834] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.575141] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.575522] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.575914] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.576473] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo\n'}
+[9.576710] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo/srv\n'}
+[9.576921] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo/srv/__init__.py\n'}
+[9.577128] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo/srv/_rqt_laser_scan_s.c\n'}
+[9.577336] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo/srv/_rqt_laser_scan.py\n'}
+[9.577828] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo/interfaces_to_gazebo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.578239] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo/__init__.py\n'}
+[9.578456] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo/libinterfaces_to_gazebo__rosidl_generator_py.so\n'}
+[9.578670] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo/interfaces_to_gazebo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.578889] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo/interfaces_to_gazebo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.579124] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo/_interfaces_to_gazebo_s.ep.rosidl_typesupport_c.c\n'}
+[9.580952] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo/_interfaces_to_gazebo_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.581347] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo/_interfaces_to_gazebo_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.603213] (-) TimerEvent: {}
+[9.704048] (-) TimerEvent: {}
+[9.800722] (interfaces_to_gazebo) StdoutLine: {'line': b"Listing '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo'...\n"}
+[9.801145] (interfaces_to_gazebo) StdoutLine: {'line': b"Listing '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo/srv'...\n"}
+[9.804186] (-) TimerEvent: {}
+[9.845209] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo/interfaces_to_gazebo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.867472] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo/interfaces_to_gazebo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.904385] (-) TimerEvent: {}
+[9.912694] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/local/lib/python3.10/dist-packages/interfaces_to_gazebo/interfaces_to_gazebo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.936926] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/lib/libinterfaces_to_gazebo__rosidl_generator_py.so\n'}
+[9.937339] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/srv/RqtLaserScan.idl\n'}
+[9.937599] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/srv/RqtLaserScan.srv\n'}
+[9.937885] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/srv/RqtLaserScan_Request.msg\n'}
+[9.938288] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/srv/RqtLaserScan_Response.msg\n'}
+[9.938706] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/ament_index/resource_index/package_run_dependencies/interfaces_to_gazebo\n'}
+[9.939091] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/ament_index/resource_index/parent_prefix_path/interfaces_to_gazebo\n'}
+[9.939637] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/environment/ament_prefix_path.sh\n'}
+[9.939914] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/environment/ament_prefix_path.dsv\n'}
+[9.940172] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/environment/path.sh\n'}
+[9.940559] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/environment/path.dsv\n'}
+[9.940849] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/local_setup.bash\n'}
+[9.941086] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/local_setup.sh\n'}
+[9.941410] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/local_setup.zsh\n'}
+[9.941659] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/local_setup.dsv\n'}
+[9.941882] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Installing: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/package.dsv\n'}
+[9.948490] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/ament_index/resource_index/packages/interfaces_to_gazebo\n'}
+[9.976660] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/export_interfaces_to_gazebo__rosidl_generator_cExport.cmake\n'}
+[9.977056] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/export_interfaces_to_gazebo__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.978152] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/export_interfaces_to_gazebo__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.978482] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/export_interfaces_to_gazebo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.984718] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/export_interfaces_to_gazebo__rosidl_generator_cppExport.cmake\n'}
+[9.987020] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/export_interfaces_to_gazebo__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.989452] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/export_interfaces_to_gazebo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.004554] (-) TimerEvent: {}
+[10.006966] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/interfaces_to_gazebo__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.007894] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/interfaces_to_gazebo__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.017462] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/interfaces_to_gazebo__rosidl_typesupport_cExport.cmake\n'}
+[10.018200] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/interfaces_to_gazebo__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.019998] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/interfaces_to_gazebo__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.020560] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/interfaces_to_gazebo__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.028510] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/interfaces_to_gazebo__rosidl_typesupport_cppExport.cmake\n'}
+[10.031089] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/interfaces_to_gazebo__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.035614] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/export_interfaces_to_gazebo__rosidl_generator_pyExport.cmake\n'}
+[10.036078] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/export_interfaces_to_gazebo__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.036434] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/rosidl_cmake-extras.cmake\n'}
+[10.036760] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.037052] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.037359] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.037743] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.038137] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.038436] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.038669] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/interfaces_to_gazeboConfig.cmake\n'}
+[10.039019] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/cmake/interfaces_to_gazeboConfig-version.cmake\n'}
+[10.039590] (interfaces_to_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/interfaces_to_gazebo/share/interfaces_to_gazebo/package.xml\n'}
+[10.050455] (interfaces_to_gazebo) CommandEnded: {'returncode': 0}
+[10.108285] (-) TimerEvent: {}
+[10.209268] (-) TimerEvent: {}
+[10.310044] (-) TimerEvent: {}
+[10.407042] (interfaces_to_gazebo) JobEnded: {'identifier': 'interfaces_to_gazebo', 'rc': 0}
+[10.408931] (-) EventReactorShutdown: {}

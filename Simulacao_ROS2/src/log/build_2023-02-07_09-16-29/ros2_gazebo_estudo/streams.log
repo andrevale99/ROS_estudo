@@ -1,0 +1,27 @@
+[4.134s] Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/ros2_gazebo_estudo': PYTHONPATH=/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/prefix_override:/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2_gazebo_estudo build --build-base /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/build install --record /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/install.log --single-version-externally-managed
+[5.557s] running egg_info
+[5.559s] writing ../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/PKG-INFO
+[5.562s] writing dependency_links to ../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/dependency_links.txt
+[5.563s] writing entry points to ../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/entry_points.txt
+[5.563s] writing requirements to ../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/requires.txt
+[5.563s] writing top-level names to ../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/top_level.txt
+[5.577s] reading manifest file '../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/SOURCES.txt'
+[5.580s] writing manifest file '../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info/SOURCES.txt'
+[5.581s] running build
+[5.581s] running build_py
+[5.582s] copying ros2_gazebo_estudo/cmd_vel_clt.py -> /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/build/lib/ros2_gazebo_estudo
+[5.584s] running install
+[5.585s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.586s]   warnings.warn(
+[5.587s] running install_lib
+[5.623s] copying /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/build/lib/ros2_gazebo_estudo/cmd_vel_clt.py -> /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/lib/python3.10/site-packages/ros2_gazebo_estudo
+[5.624s] byte-compiling /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/lib/python3.10/site-packages/ros2_gazebo_estudo/cmd_vel_clt.py to cmd_vel_clt.cpython-310.pyc
+[5.624s] running install_data
+[5.624s] running install_egg_info
+[5.628s] removing '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/lib/python3.10/site-packages/ros2_gazebo_estudo-0.0.0-py3.10.egg-info' (and everything under it)
+[5.629s] Copying ../build/ros2_gazebo_estudo/ros2_gazebo_estudo.egg-info to /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/lib/python3.10/site-packages/ros2_gazebo_estudo-0.0.0-py3.10.egg-info
+[5.635s] running install_scripts
+[5.734s] Installing CmdVel_client script to /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/lib/ros2_gazebo_estudo
+[5.735s] Installing LaserScan_service script to /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/lib/ros2_gazebo_estudo
+[5.735s] writing list of installed files to '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/install.log'
+[5.877s] Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/ros2_gazebo_estudo' returned '0': PYTHONPATH=/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/prefix_override:/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/install/ros2_gazebo_estudo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2_gazebo_estudo build --build-base /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/build install --record /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/src/build/ros2_gazebo_estudo/install.log --single-version-externally-managed

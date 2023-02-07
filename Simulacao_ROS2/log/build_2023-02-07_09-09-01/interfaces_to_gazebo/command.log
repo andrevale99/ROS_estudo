@@ -1,0 +1,2 @@
+Invoking command in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo -- -j4 -l4
+Invoked command in '/home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/andre/Desktop/Git/ROS_estudo/Simulacao_ROS2/build/interfaces_to_gazebo -- -j4 -l4
