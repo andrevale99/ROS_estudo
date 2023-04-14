@@ -1,0 +1,39 @@
+[1.909s] Invoking command in '/home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/src/image_process': PYTHONPATH=/home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/build/image_process/prefix_override:/home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/install/image_process/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/image_process build --build-base /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/build/image_process/build install --record /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/build/image_process/install.log --single-version-externally-managed
+[2.477s] running egg_info
+[2.478s] creating ../../build/image_process/image_process.egg-info
+[2.479s] writing ../../build/image_process/image_process.egg-info/PKG-INFO
+[2.479s] writing dependency_links to ../../build/image_process/image_process.egg-info/dependency_links.txt
+[2.479s] writing entry points to ../../build/image_process/image_process.egg-info/entry_points.txt
+[2.479s] writing requirements to ../../build/image_process/image_process.egg-info/requires.txt
+[2.480s] writing top-level names to ../../build/image_process/image_process.egg-info/top_level.txt
+[2.480s] writing manifest file '../../build/image_process/image_process.egg-info/SOURCES.txt'
+[2.483s] reading manifest file '../../build/image_process/image_process.egg-info/SOURCES.txt'
+[2.484s] writing manifest file '../../build/image_process/image_process.egg-info/SOURCES.txt'
+[2.485s] running build
+[2.485s] running build_py
+[2.485s] creating /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/build/image_process/build
+[2.485s] creating /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/build/image_process/build/lib
+[2.486s] creating /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/build/image_process/build/lib/image_process
+[2.486s] copying image_process/__init__.py -> /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/build/image_process/build/lib/image_process
+[2.486s] copying image_process/pub_img.py -> /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/build/image_process/build/lib/image_process
+[2.486s] running install
+[2.497s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.497s]   warnings.warn(
+[2.498s] running install_lib
+[2.499s] creating /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/install/image_process/lib/python3.10/site-packages/image_process
+[2.499s] copying /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/build/image_process/build/lib/image_process/__init__.py -> /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/install/image_process/lib/python3.10/site-packages/image_process
+[2.500s] copying /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/build/image_process/build/lib/image_process/pub_img.py -> /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/install/image_process/lib/python3.10/site-packages/image_process
+[2.501s] byte-compiling /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/install/image_process/lib/python3.10/site-packages/image_process/__init__.py to __init__.cpython-310.pyc
+[2.501s] byte-compiling /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/install/image_process/lib/python3.10/site-packages/image_process/pub_img.py to pub_img.cpython-310.pyc
+[2.502s] running install_data
+[2.503s] creating /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/install/image_process/share/ament_index
+[2.503s] creating /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/install/image_process/share/ament_index/resource_index
+[2.503s] creating /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/install/image_process/share/ament_index/resource_index/packages
+[2.504s] copying resource/image_process -> /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/install/image_process/share/ament_index/resource_index/packages
+[2.504s] copying package.xml -> /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/install/image_process/share/image_process
+[2.504s] running install_egg_info
+[2.506s] Copying ../../build/image_process/image_process.egg-info to /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/install/image_process/lib/python3.10/site-packages/image_process-0.0.0-py3.10.egg-info
+[2.508s] running install_scripts
+[2.554s] Installing pub script to /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/install/image_process/lib/image_process
+[2.554s] writing list of installed files to '/home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/build/image_process/install.log'
+[2.589s] Invoked command in '/home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/src/image_process' returned '0': PYTHONPATH=/home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/build/image_process/prefix_override:/home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/install/image_process/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/image_process build --build-base /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/build/image_process/build install --record /home/natalnet/Documents/codes/ROS_estudo/Estudo/image_turtlebot2/build/image_process/install.log --single-version-externally-managed

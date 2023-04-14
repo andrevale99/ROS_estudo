@@ -1,0 +1,3 @@
+[console_scripts]
+pub = image_process.pub_img:main
+
