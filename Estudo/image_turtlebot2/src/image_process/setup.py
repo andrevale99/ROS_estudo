@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'pub = image_process.pub_img:main'
+            'pub = image_process.pub_img:main',
+            'sub = image_process.sub_img:main'
         ],
     },
 )
